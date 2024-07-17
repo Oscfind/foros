@@ -1,0 +1,713 @@
+Courses response: [
+    {'id': 1, 'shortname': 'AULA BECAT', 'categoryid': 0, 'categorysortorder': 1, 'fullname': 'AULA BECAT', 'displayname': 'AULA BECAT', 'idnumber': '', 'summary': '', 'summaryformat': 1, 'format': 'site', 'showgrades': 1, 'newsitems': 1, 'startdate': 0, 'enddate': 0, 'numsections': 1, 'maxbytes': 0, 'showreports': 0, 'visible': 1, 'groupmode': 0, 'groupmodeforce': 0, 'defaultgroupingid': 0, 'timecreated': 1551777651, 'timemodified': 1711696454, 'enablecompletion': 0, 'completionnotify': 0, 'lang': '', 'forcetheme': '', 'courseformatoptions': [
+            {'name': 'numsections', 'value': 1
+            }
+        ], 'showactivitydates': False, 'showcompletionconditions': None
+    },
+    {'id': 27, 'shortname': 'practicas-moodle', 'categoryid': 2, 'categorysortorder': 20002, 'fullname': 'Prácticas Aula', 'displayname': 'Prácticas Aula', 'idnumber': '', 'summary': '', 'summaryformat': 1, 'format': 'topics', 'showgrades': 1, 'newsitems': 0, 'startdate': 1608246000, 'enddate': 0, 'numsections': 41, 'maxbytes': 0, 'showreports': 0, 'visible': 1, 'hiddensections': 0, 'groupmode': 2, 'groupmodeforce': 0, 'defaultgroupingid': 0, 'timecreated': 1578308302, 'timemodified': 1684844429, 'enablecompletion': 1, 'completionnotify': 0, 'lang': '', 'forcetheme': '', 'courseformatoptions': [
+            {'name': 'hiddensections', 'value': 0
+            },
+            {'name': 'coursedisplay', 'value': 0
+            }
+        ], 'showactivitydates': False, 'showcompletionconditions': True
+    },
+    {'id': 28, 'shortname': 'curso-cero', 'categoryid': 28, 'categorysortorder': 10011, 'fullname': 'Curso cero', 'displayname': 'Curso cero', 'idnumber': '', 'summary': '<p style="text-align:center;"><em>Primeros pasos en la plataforma -\xa0</em>(30 minutos aprox)</p>', 'summaryformat': 1, 'format': 'topics', 'showgrades': 1, 'newsitems': 5, 'startdate': 1588975200, 'enddate': 0, 'numsections': 2, 'maxbytes': 0, 'showreports': 0, 'visible': 0, 'hiddensections': 0, 'groupmode': 0, 'groupmodeforce': 0, 'defaultgroupingid': 0, 'timecreated': 1578309534, 'timemodified': 1684738886, 'enablecompletion': 1, 'completionnotify': 0, 'lang': '', 'forcetheme': '', 'courseformatoptions': [
+            {'name': 'hiddensections', 'value': 0
+            },
+            {'name': 'coursedisplay', 'value': 0
+            }
+        ], 'showactivitydates': False, 'showcompletionconditions': True
+    },
+    {'id': 29, 'shortname': 'muestra', 'categoryid': 3, 'categorysortorder': 140012, 'fullname': 'Ejemplo de aula virtual para catequesis', 'displayname': 'Ejemplo de aula virtual para catequesis', 'idnumber': '', 'summary': '<p dir="ltr" style="text-align:center;">Clic aquí para acceder</p>', 'summaryformat': 1, 'format': 'topics', 'showgrades': 0, 'newsitems': 5, 'startdate': 1578783600, 'enddate': 0, 'numsections': 2, 'maxbytes': 0, 'showreports': 0, 'visible': 1, 'hiddensections': 0, 'groupmode': 1, 'groupmodeforce': 0, 'defaultgroupingid': 0, 'timecreated': 1578735331, 'timemodified': 1695467337, 'enablecompletion': 1, 'completionnotify': 0, 'lang': '', 'forcetheme': '', 'courseformatoptions': [
+            {'name': 'hiddensections', 'value': 0
+            },
+            {'name': 'coursedisplay', 'value': 0
+            }
+        ], 'showactivitydates': False, 'showcompletionconditions': True
+    },
+    {'id': 30, 'shortname': 'catequistas-0_1', 'categoryid': 3, 'categorysortorder': 140011, 'fullname': 'Curso 0. A modo de muestra.', 'displayname': 'Curso 0. A modo de muestra.', 'idnumber': '', 'summary': '<p>Su objetivo es que te familiarices con la plataforma sin dedicarle mucho tiempo.\xa0</p>', 'summaryformat': 1, 'format': 'topics', 'showgrades': 1, 'newsitems': 5, 'startdate': 1578351600, 'enddate': 1609887600, 'numsections': 2, 'maxbytes': 0, 'showreports': 0, 'visible': 0, 'hiddensections': 0, 'groupmode': 0, 'groupmodeforce': 0, 'defaultgroupingid': 0, 'timecreated': 1578309534, 'timemodified': 1582371424, 'enablecompletion': 0, 'completionnotify': 0, 'lang': '', 'forcetheme': '', 'courseformatoptions': [
+            {'name': 'hiddensections', 'value': 0
+            },
+            {'name': 'coursedisplay', 'value': 0
+            }
+        ], 'showactivitydates': False, 'showcompletionconditions': None
+    },
+    {'id': 111, 'shortname': 'practica-gestor', 'categoryid': 2, 'categorysortorder': 20003, 'fullname': 'Prácticas con el gestor', 'displayname': 'Prácticas con el gestor', 'idnumber': '', 'summary': '', 'summaryformat': 1, 'format': 'topics', 'showgrades': 1, 'newsitems': 5, 'startdate': 1599343200, 'enddate': 0, 'numsections': 2, 'maxbytes': 0, 'showreports': 0, 'visible': 1, 'hiddensections': 0, 'groupmode': 0, 'groupmodeforce': 0, 'defaultgroupingid': 0, 'timecreated': 1599316522, 'timemodified': 1617460696, 'enablecompletion': 0, 'completionnotify': 0, 'lang': '', 'forcetheme': '', 'courseformatoptions': [
+            {'name': 'hiddensections', 'value': 0
+            },
+            {'name': 'coursedisplay', 'value': 0
+            }
+        ], 'showactivitydates': False, 'showcompletionconditions': None
+    },
+    {'id': 166, 'shortname': 'matrimonio-muestra', 'categoryid': 3, 'categorysortorder': 140010, 'fullname': 'Ejemplo de un aula virtual para novios / matrimonios', 'displayname': 'Ejemplo de un aula virtual para novios / matrimonios', 'idnumber': '', 'summary': '', 'summaryformat': 1, 'format': 'topics', 'showgrades': 1, 'newsitems': 5, 'startdate': 1615590000, 'enddate': 0, 'numsections': 8, 'maxbytes': 0, 'showreports': 0, 'visible': 1, 'hiddensections': 0, 'groupmode': 0, 'groupmodeforce': 0, 'defaultgroupingid': 0, 'timecreated': 1615540521, 'timemodified': 1670939138, 'enablecompletion': 1, 'completionnotify': 0, 'lang': '', 'forcetheme': '', 'courseformatoptions': [
+            {'name': 'hiddensections', 'value': 0
+            },
+            {'name': 'coursedisplay', 'value': 0
+            }
+        ], 'showactivitydates': False, 'showcompletionconditions': True
+    },
+    {'id': 203, 'shortname': 'vacio', 'categoryid': 2, 'categorysortorder': 20001, 'fullname': 'Curso vacío - prácticas', 'displayname': 'Curso vacío - prácticas', 'idnumber': '', 'summary': '', 'summaryformat': 1, 'format': 'topics', 'showgrades': 1, 'newsitems': 5, 'startdate': 1639868400, 'enddate': 1671404400, 'numsections': 8, 'maxbytes': 0, 'showreports': 0, 'visible': 1, 'hiddensections': 0, 'groupmode': 0, 'groupmodeforce': 0, 'defaultgroupingid': 0, 'timecreated': 1639842763, 'timemodified': 1639842763, 'enablecompletion': 1, 'completionnotify': 0, 'lang': '', 'forcetheme': '', 'courseformatoptions': [
+            {'name': 'hiddensections', 'value': 0
+            },
+            {'name': 'coursedisplay', 'value': 0
+            }
+        ], 'showactivitydates': False, 'showcompletionconditions': True
+    },
+    {'id': 211, 'shortname': 'mariaauxiliadora-A', 'categoryid': 21, 'categorysortorder': 40002, 'fullname': 'Parroquia María Auxiliadora - Chaco (Argentina) - A', 'displayname': 'Parroquia María Auxiliadora - Chaco (Argentina) - A', 'idnumber': '', 'summary': '', 'summaryformat': 1, 'format': 'topics', 'showgrades': 1, 'newsitems': 5, 'startdate': 1648076400, 'enddate': 0, 'numsections': 13, 'maxbytes': 0, 'showreports': 0, 'visible': 1, 'hiddensections': 1, 'groupmode': 0, 'groupmodeforce': 0, 'defaultgroupingid': 0, 'timecreated': 1648022740, 'timemodified': 1648286493, 'enablecompletion': 1, 'completionnotify': 0, 'lang': '', 'forcetheme': '', 'courseformatoptions': [
+            {'name': 'hiddensections', 'value': 1
+            },
+            {'name': 'coursedisplay', 'value': 1
+            }
+        ], 'showactivitydates': False, 'showcompletionconditions': True
+    },
+    {'id': 212, 'shortname': 'mariaauxiliadora-B', 'categoryid': 21, 'categorysortorder': 40003, 'fullname': 'Parroquia María Auxiliadora - Chaco (Argentina) - B', 'displayname': 'Parroquia María Auxiliadora - Chaco (Argentina) - B', 'idnumber': '', 'summary': '', 'summaryformat': 1, 'format': 'topics', 'showgrades': 1, 'newsitems': 5, 'startdate': 1648076400, 'enddate': 0, 'numsections': 11, 'maxbytes': 0, 'showreports': 0, 'visible': 1, 'hiddensections': 1, 'groupmode': 0, 'groupmodeforce': 0, 'defaultgroupingid': 0, 'timecreated': 1648036200, 'timemodified': 1684271305, 'enablecompletion': 1, 'completionnotify': 0, 'lang': '', 'forcetheme': '', 'courseformatoptions': [
+            {'name': 'hiddensections', 'value': 1
+            },
+            {'name': 'coursedisplay', 'value': 1
+            }
+        ], 'showactivitydates': False, 'showcompletionconditions': True
+    },
+    {'id': 213, 'shortname': 'mariaauxiliadora-C', 'categoryid': 21, 'categorysortorder': 40004, 'fullname': 'Parroquia María Auxiliadora - Chaco (Argentina) - C', 'displayname': 'Parroquia María Auxiliadora - Chaco (Argentina) - C', 'idnumber': '', 'summary': '', 'summaryformat': 1, 'format': 'topics', 'showgrades': 1, 'newsitems': 5, 'startdate': 1648162800, 'enddate': 0, 'numsections': 11, 'maxbytes': 0, 'showreports': 0, 'visible': 1, 'hiddensections': 1, 'groupmode': 0, 'groupmodeforce': 0, 'defaultgroupingid': 0, 'timecreated': 1648128735, 'timemodified': 1648286470, 'enablecompletion': 1, 'completionnotify': 0, 'lang': '', 'forcetheme': '', 'courseformatoptions': [
+            {'name': 'hiddensections', 'value': 1
+            },
+            {'name': 'coursedisplay', 'value': 1
+            }
+        ], 'showactivitydates': False, 'showcompletionconditions': True
+    },
+    {'id': 218, 'shortname': 'cf-iniciacion', 'categoryid': 5, 'categorysortorder': 160008, 'fullname': 'CF - Iniciación', 'displayname': 'CF - Iniciación', 'idnumber': '', 'summary': '', 'summaryformat': 1, 'format': 'topics', 'showgrades': 1, 'newsitems': 5, 'startdate': 1649800800, 'enddate': 1681336800, 'numsections': 11, 'maxbytes': 0, 'showreports': 0, 'visible': 1, 'hiddensections': 1, 'groupmode': 0, 'groupmodeforce': 0, 'defaultgroupingid': 0, 'timecreated': 1649783572, 'timemodified': 1649850515, 'enablecompletion': 1, 'completionnotify': 0, 'lang': '', 'forcetheme': '', 'courseformatoptions': [
+            {'name': 'hiddensections', 'value': 1
+            },
+            {'name': 'coursedisplay', 'value': 1
+            }
+        ], 'showactivitydates': False, 'showcompletionconditions': True
+    },
+    {'id': 219, 'shortname': 'cf-intermedio', 'categoryid': 5, 'categorysortorder': 160009, 'fullname': 'CF - Intermedio', 'displayname': 'CF - Intermedio', 'idnumber': '', 'summary': '', 'summaryformat': 1, 'format': 'topics', 'showgrades': 1, 'newsitems': 5, 'startdate': 1649800800, 'enddate': 1681336800, 'numsections': 11, 'maxbytes': 0, 'showreports': 0, 'visible': 1, 'hiddensections': 1, 'groupmode': 0, 'groupmodeforce': 0, 'defaultgroupingid': 0, 'timecreated': 1649784131, 'timemodified': 1649850489, 'enablecompletion': 1, 'completionnotify': 0, 'lang': '', 'forcetheme': '', 'courseformatoptions': [
+            {'name': 'hiddensections', 'value': 1
+            },
+            {'name': 'coursedisplay', 'value': 1
+            }
+        ], 'showactivitydates': False, 'showcompletionconditions': True
+    },
+    {'id': 220, 'shortname': 'cf-avanzado', 'categoryid': 5, 'categorysortorder': 160010, 'fullname': 'CF - Avanzado', 'displayname': 'CF - Avanzado', 'idnumber': '', 'summary': '', 'summaryformat': 1, 'format': 'topics', 'showgrades': 1, 'newsitems': 5, 'startdate': 1649800800, 'enddate': 1681336800, 'numsections': 11, 'maxbytes': 0, 'showreports': 0, 'visible': 1, 'hiddensections': 1, 'groupmode': 0, 'groupmodeforce': 0, 'defaultgroupingid': 0, 'timecreated': 1649785064, 'timemodified': 1649850458, 'enablecompletion': 1, 'completionnotify': 0, 'lang': '', 'forcetheme': '', 'courseformatoptions': [
+            {'name': 'hiddensections', 'value': 1
+            },
+            {'name': 'coursedisplay', 'value': 1
+            }
+        ], 'showactivitydates': False, 'showcompletionconditions': True
+    },
+    {'id': 221, 'shortname': 'mala', 'categoryid': 5, 'categorysortorder': 160007, 'fullname': 'Mala', 'displayname': 'Mala', 'idnumber': '', 'summary': '', 'summaryformat': 1, 'format': 'topics', 'showgrades': 1, 'newsitems': 5, 'startdate': 1649800800, 'enddate': 1681336800, 'numsections': 11, 'maxbytes': 0, 'showreports': 0, 'visible': 1, 'hiddensections': 1, 'groupmode': 0, 'groupmodeforce': 0, 'defaultgroupingid': 0, 'timecreated': 1649795920, 'timemodified': 1649850432, 'enablecompletion': 1, 'completionnotify': 0, 'lang': '', 'forcetheme': '', 'courseformatoptions': [
+            {'name': 'hiddensections', 'value': 1
+            },
+            {'name': 'coursedisplay', 'value': 1
+            }
+        ], 'showactivitydates': False, 'showcompletionconditions': True
+    },
+    {'id': 239, 'shortname': 'cf-prototipo-antiguo', 'categoryid': 28, 'categorysortorder': 10014, 'fullname': 'ANTIGUO - Catequesis de Iniciación Cristiana en familia', 'displayname': 'ANTIGUO - Catequesis de Iniciación Cristiana en familia', 'idnumber': '', 'summary': '<p dir="ltr" style="text-align:center;"><small>Aula de muestra</small></p>', 'summaryformat': 1, 'format': 'topics', 'showgrades': 1, 'newsitems': 5, 'startdate': 1658181600, 'enddate': 0, 'numsections': 11, 'maxbytes': 0, 'showreports': 0, 'visible': 1, 'hiddensections': 1, 'groupmode': 0, 'groupmodeforce': 0, 'defaultgroupingid': 0, 'timecreated': 1658145381, 'timemodified': 1706739857, 'enablecompletion': 1, 'completionnotify': 0, 'lang': '', 'forcetheme': '', 'courseformatoptions': [
+            {'name': 'hiddensections', 'value': 1
+            },
+            {'name': 'coursedisplay', 'value': 1
+            }
+        ], 'showactivitydates': False, 'showcompletionconditions': True
+    },
+    {'id': 245, 'shortname': 'guadalupe-mx', 'categoryid': 20, 'categorysortorder': 130001, 'fullname': 'Nuestra Señora de Guadalupe - 2022', 'displayname': 'Nuestra Señora de Guadalupe - 2022', 'idnumber': '', 'summary': '', 'summaryformat': 1, 'format': 'topics', 'showgrades': 1, 'newsitems': 5, 'startdate': 1665007200, 'enddate': 1696543200, 'numsections': 11, 'maxbytes': 0, 'showreports': 0, 'visible': 1, 'hiddensections': 1, 'groupmode': 0, 'groupmodeforce': 0, 'defaultgroupingid': 0, 'timecreated': 1664953858, 'timemodified': 1664956605, 'enablecompletion': 1, 'completionnotify': 0, 'lang': '', 'forcetheme': '', 'courseformatoptions': [
+            {'name': 'hiddensections', 'value': 1
+            },
+            {'name': 'coursedisplay', 'value': 1
+            }
+        ], 'showactivitydates': False, 'showcompletionconditions': True
+    },
+    {'id': 252, 'shortname': 'dsi-3', 'categoryid': 28, 'categorysortorder': 10015, 'fullname': 'Curso de Doctrina Social de la Iglesia', 'displayname': 'Curso de Doctrina Social de la Iglesia', 'idnumber': '', 'summary': '<p dir="ltr" style="text-align:center;"><em>Fundamentos, realidades sociales\xa0</em></p><p dir="ltr" style="text-align:center;"><em>y acción pastoral</em></p>', 'summaryformat': 1, 'format': 'topics', 'showgrades': 1, 'newsitems': 5, 'startdate': 1693519200, 'enddate': 1695311940, 'numsections': 7, 'maxbytes': 0, 'showreports': 0, 'visible': 1, 'hiddensections': 0, 'groupmode': 1, 'groupmodeforce': 1, 'defaultgroupingid': 0, 'timecreated': 1670257801, 'timemodified': 1694535432, 'enablecompletion': 1, 'completionnotify': 0, 'lang': '', 'forcetheme': '', 'courseformatoptions': [
+            {'name': 'hiddensections', 'value': 0
+            },
+            {'name': 'coursedisplay', 'value': 0
+            }
+        ], 'showactivitydates': False, 'showcompletionconditions': True
+    },
+    {'id': 254, 'shortname': 'edsex-muestra', 'categoryid': 3, 'categorysortorder': 140009, 'fullname': 'Educación afectivo-sexual - muestra', 'displayname': 'Educación afectivo-sexual - muestra', 'idnumber': '', 'summary': '<p dir="ltr" style="text-align:center;"><em>Curso de muestra</em></p>', 'summaryformat': 1, 'format': 'topics', 'showgrades': 1, 'newsitems': 5, 'startdate': 1670886000, 'enddate': 0, 'numsections': 2, 'maxbytes': 0, 'showreports': 0, 'visible': 1, 'hiddensections': 0, 'groupmode': 0, 'groupmodeforce': 0, 'defaultgroupingid': 0, 'timecreated': 1670850554, 'timemodified': 1670850984, 'enablecompletion': 1, 'completionnotify': 0, 'lang': '', 'forcetheme': '', 'courseformatoptions': [
+            {'name': 'hiddensections', 'value': 0
+            },
+            {'name': 'coursedisplay', 'value': 0
+            }
+        ], 'showactivitydates': False, 'showcompletionconditions': True
+    },
+    {'id': 255, 'shortname': 'quovadis-muestra', 'categoryid': 3, 'categorysortorder': 140008, 'fullname': 'Quo Vadis? - Antropología cristiana y apologética - muestra', 'displayname': 'Quo Vadis? - Antropología cristiana y apologética - muestra', 'idnumber': '', 'summary': '<p dir="ltr" style="text-align:center;"><em>Curso de muestra</em></p>', 'summaryformat': 1, 'format': 'topics', 'showgrades': 1, 'newsitems': 5, 'startdate': 1670886000, 'enddate': 0, 'numsections': 2, 'maxbytes': 0, 'showreports': 0, 'visible': 1, 'hiddensections': 0, 'groupmode': 0, 'groupmodeforce': 0, 'defaultgroupingid': 0, 'timecreated': 1670866437, 'timemodified': 1670866437, 'enablecompletion': 1, 'completionnotify': 0, 'lang': '', 'forcetheme': '', 'courseformatoptions': [
+            {'name': 'hiddensections', 'value': 0
+            },
+            {'name': 'coursedisplay', 'value': 0
+            }
+        ], 'showactivitydates': False, 'showcompletionconditions': True
+    },
+    {'id': 256, 'shortname': 'catequistas-muestra', 'categoryid': 3, 'categorysortorder': 140007, 'fullname': 'Curso para catequistas - Catequesis de Iniciación Cristiana para la familia - muestra', 'displayname': 'Curso para catequistas - Catequesis de Iniciación Cristiana para la familia - muestra', 'idnumber': '', 'summary': '<p dir="ltr" style="text-align:center;"><em>Curso de muestra</em></p>', 'summaryformat': 1, 'format': 'topics', 'showgrades': 1, 'newsitems': 5, 'startdate': 1670886000, 'enddate': 0, 'numsections': 2, 'maxbytes': 0, 'showreports': 0, 'visible': 1, 'hiddensections': 0, 'groupmode': 0, 'groupmodeforce': 0, 'defaultgroupingid': 0, 'timecreated': 1670867776, 'timemodified': 1670867776, 'enablecompletion': 1, 'completionnotify': 0, 'lang': '', 'forcetheme': '', 'courseformatoptions': [
+            {'name': 'hiddensections', 'value': 0
+            },
+            {'name': 'coursedisplay', 'value': 0
+            }
+        ], 'showactivitydates': False, 'showcompletionconditions': True
+    },
+    {'id': 257, 'shortname': 'dsi-muestra', 'categoryid': 3, 'categorysortorder': 140006, 'fullname': 'Curso de Doctrina Social de la Iglesia - muestra', 'displayname': 'Curso de Doctrina Social de la Iglesia - muestra', 'idnumber': '', 'summary': '<p dir="ltr" style="text-align:center;"><em>Curso de muestra</em></p>', 'summaryformat': 1, 'format': 'topics', 'showgrades': 1, 'newsitems': 5, 'startdate': 1670886000, 'enddate': 0, 'numsections': 3, 'maxbytes': 0, 'showreports': 0, 'visible': 1, 'hiddensections': 0, 'groupmode': 0, 'groupmodeforce': 0, 'defaultgroupingid': 0, 'timecreated': 1670869015, 'timemodified': 1670869015, 'enablecompletion': 1, 'completionnotify': 0, 'lang': '', 'forcetheme': '', 'courseformatoptions': [
+            {'name': 'hiddensections', 'value': 0
+            },
+            {'name': 'coursedisplay', 'value': 0
+            }
+        ], 'showactivitydates': False, 'showcompletionconditions': True
+    },
+    {'id': 258, 'shortname': 'at-muestra', 'categoryid': 3, 'categorysortorder': 140005, 'fullname': 'Curso de Sagrada Escritura: Antiguo Testamento - muestra', 'displayname': 'Curso de Sagrada Escritura: Antiguo Testamento - muestra', 'idnumber': '', 'summary': '<p dir="ltr" style="text-align:center;"><em>Curso de muestra</em></p>', 'summaryformat': 1, 'format': 'topics', 'showgrades': 1, 'newsitems': 5, 'startdate': 1670886000, 'enddate': 0, 'numsections': 2, 'maxbytes': 0, 'showreports': 0, 'visible': 1, 'hiddensections': 0, 'groupmode': 0, 'groupmodeforce': 0, 'defaultgroupingid': 0, 'timecreated': 1670870190, 'timemodified': 1670870251, 'enablecompletion': 1, 'completionnotify': 0, 'lang': '', 'forcetheme': '', 'courseformatoptions': [
+            {'name': 'hiddensections', 'value': 0
+            },
+            {'name': 'coursedisplay', 'value': 0
+            }
+        ], 'showactivitydates': False, 'showcompletionconditions': True
+    },
+    {'id': 259, 'shortname': 'fff-edsex-muestra', 'categoryid': 22, 'categorysortorder': 200006, 'fullname': 'Curso de Educación afectivo-sexual - muestra', 'displayname': 'Curso de Educación afectivo-sexual - muestra', 'idnumber': '', 'summary': '<p dir="ltr" style="text-align:center;"><em>Curso de muestra</em></p>', 'summaryformat': 1, 'format': 'topics', 'showgrades': 1, 'newsitems': 5, 'startdate': 1674514800, 'enddate': 0, 'numsections': 1, 'maxbytes': 0, 'showreports': 0, 'visible': 1, 'hiddensections': 0, 'groupmode': 0, 'groupmodeforce': 0, 'defaultgroupingid': 0, 'timecreated': 1674480431, 'timemodified': 1674480431, 'enablecompletion': 1, 'completionnotify': 0, 'lang': '', 'forcetheme': '', 'courseformatoptions': [
+            {'name': 'hiddensections', 'value': 0
+            },
+            {'name': 'coursedisplay', 'value': 0
+            }
+        ], 'showactivitydates': True, 'showcompletionconditions': True
+    },
+    {'id': 260, 'shortname': 'fff-at-muestra', 'categoryid': 22, 'categorysortorder': 200005, 'fullname': 'Curso de Antiguo Testamento - muestra', 'displayname': 'Curso de Antiguo Testamento - muestra', 'idnumber': '', 'summary': '<p dir="ltr" style="text-align:center;"><em>Curso de muestra</em></p>', 'summaryformat': 1, 'format': 'topics', 'showgrades': 1, 'newsitems': 5, 'startdate': 1674514800, 'enddate': 0, 'numsections': 1, 'maxbytes': 0, 'showreports': 0, 'visible': 1, 'hiddensections': 0, 'groupmode': 0, 'groupmodeforce': 0, 'defaultgroupingid': 0, 'timecreated': 1674481435, 'timemodified': 1674481435, 'enablecompletion': 1, 'completionnotify': 0, 'lang': '', 'forcetheme': '', 'courseformatoptions': [
+            {'name': 'hiddensections', 'value': 0
+            },
+            {'name': 'coursedisplay', 'value': 0
+            }
+        ], 'showactivitydates': True, 'showcompletionconditions': True
+    },
+    {'id': 261, 'shortname': 'fff-dsi-muestra', 'categoryid': 22, 'categorysortorder': 200004, 'fullname': 'Curso de Doctrina Social de la Iglesia - muestra', 'displayname': 'Curso de Doctrina Social de la Iglesia - muestra', 'idnumber': '', 'summary': '<p dir="ltr" style="text-align:center;"><em>Curso de muestra</em></p>', 'summaryformat': 1, 'format': 'topics', 'showgrades': 1, 'newsitems': 5, 'startdate': 1674514800, 'enddate': 0, 'numsections': 2, 'maxbytes': 0, 'showreports': 0, 'visible': 1, 'hiddensections': 0, 'groupmode': 0, 'groupmodeforce': 0, 'defaultgroupingid': 0, 'timecreated': 1674481729, 'timemodified': 1674481729, 'enablecompletion': 1, 'completionnotify': 0, 'lang': '', 'forcetheme': '', 'courseformatoptions': [
+            {'name': 'hiddensections', 'value': 0
+            },
+            {'name': 'coursedisplay', 'value': 0
+            }
+        ], 'showactivitydates': True, 'showcompletionconditions': True
+    },
+    {'id': 262, 'shortname': 'fff-qv-muestra', 'categoryid': 22, 'categorysortorder': 200003, 'fullname': 'Quo Vadis? Curso de antropología cristiana y apologética - muestra', 'displayname': 'Quo Vadis? Curso de antropología cristiana y apologética - muestra', 'idnumber': '', 'summary': '<p dir="ltr" style="text-align:center;"><em>Curso de muestra</em></p>', 'summaryformat': 1, 'format': 'topics', 'showgrades': 1, 'newsitems': 5, 'startdate': 1674514800, 'enddate': 0, 'numsections': 1, 'maxbytes': 0, 'showreports': 0, 'visible': 1, 'hiddensections': 0, 'groupmode': 0, 'groupmodeforce': 0, 'defaultgroupingid': 0, 'timecreated': 1674481949, 'timemodified': 1674481949, 'enablecompletion': 1, 'completionnotify': 0, 'lang': '', 'forcetheme': '', 'courseformatoptions': [
+            {'name': 'hiddensections', 'value': 0
+            },
+            {'name': 'coursedisplay', 'value': 0
+            }
+        ], 'showactivitydates': True, 'showcompletionconditions': True
+    },
+    {'id': 263, 'shortname': 'fff-cf-muestra', 'categoryid': 22, 'categorysortorder': 200002, 'fullname': 'Aula de muestra - Catequesis Familiar', 'displayname': 'Aula de muestra - Catequesis Familiar', 'idnumber': '', 'summary': '', 'summaryformat': 1, 'format': 'topics', 'showgrades': 1, 'newsitems': 5, 'startdate': 1674514800, 'enddate': 0, 'numsections': 2, 'maxbytes': 0, 'showreports': 0, 'visible': 1, 'hiddensections': 0, 'groupmode': 0, 'groupmodeforce': 0, 'defaultgroupingid': 0, 'timecreated': 1674482375, 'timemodified': 1674482375, 'enablecompletion': 1, 'completionnotify': 0, 'lang': '', 'forcetheme': '', 'courseformatoptions': [
+            {'name': 'hiddensections', 'value': 0
+            },
+            {'name': 'coursedisplay', 'value': 0
+            }
+        ], 'showactivitydates': True, 'showcompletionconditions': True
+    },
+    {'id': 264, 'shortname': 'fff-matrimonio-muestra', 'categoryid': 22, 'categorysortorder': 200001, 'fullname': 'Catequesis para novios y matrimonios jóvenes - muestra', 'displayname': 'Catequesis para novios y matrimonios jóvenes - muestra', 'idnumber': '', 'summary': '<p dir="ltr" style="text-align:center;"><em>Curso y aula virtual de muestra</em></p>', 'summaryformat': 1, 'format': 'topics', 'showgrades': 1, 'newsitems': 5, 'startdate': 1674514800, 'enddate': 0, 'numsections': 1, 'maxbytes': 0, 'showreports': 0, 'visible': 1, 'hiddensections': 0, 'groupmode': 0, 'groupmodeforce': 0, 'defaultgroupingid': 0, 'timecreated': 1674482789, 'timemodified': 1674482789, 'enablecompletion': 1, 'completionnotify': 0, 'lang': '', 'forcetheme': '', 'courseformatoptions': [
+            {'name': 'hiddensections', 'value': 0
+            },
+            {'name': 'coursedisplay', 'value': 0
+            }
+        ], 'showactivitydates': True, 'showcompletionconditions': True
+    },
+    {'id': 268, 'shortname': 'edsex-0-encuentra', 'categoryid': 27, 'categorysortorder': 210004, 'fullname': 'Educación afectivo-sexual (0) [Encuentra
+        ]: Introducción', 'displayname': 'Educación afectivo-sexual (0) [Encuentra
+        ]: Introducción', 'idnumber': '', 'summary': '', 'summaryformat': 1, 'format': 'topics', 'showgrades': 1, 'newsitems': 5, 'startdate': 1676242800, 'enddate': 0, 'numsections': 3, 'maxbytes': 0, 'showreports': 0, 'visible': 1, 'hiddensections': 0, 'groupmode': 0, 'groupmodeforce': 0, 'defaultgroupingid': 0, 'timecreated': 1676220610, 'timemodified': 1676221467, 'enablecompletion': 1, 'completionnotify': 0, 'lang': '', 'forcetheme': '', 'courseformatoptions': [
+            {'name': 'hiddensections', 'value': 0
+            },
+            {'name': 'coursedisplay', 'value': 0
+            }
+        ], 'showactivitydates': True, 'showcompletionconditions': True
+    },
+    {'id': 269, 'shortname': 'edsex-1-encuentra', 'categoryid': 27, 'categorysortorder': 210003, 'fullname': 'Educación afectivo-sexual (1) [Encuentra
+        ]: Contexto cultural y social', 'displayname': 'Educación afectivo-sexual (1) [Encuentra
+        ]: Contexto cultural y social', 'idnumber': '', 'summary': '', 'summaryformat': 1, 'format': 'topics', 'showgrades': 1, 'newsitems': 5, 'startdate': 1676242800, 'enddate': 0, 'numsections': 5, 'maxbytes': 0, 'showreports': 0, 'visible': 1, 'hiddensections': 0, 'groupmode': 0, 'groupmodeforce': 0, 'defaultgroupingid': 0, 'timecreated': 1676221139, 'timemodified': 1676221444, 'enablecompletion': 1, 'completionnotify': 0, 'lang': '', 'forcetheme': '', 'courseformatoptions': [
+            {'name': 'hiddensections', 'value': 0
+            },
+            {'name': 'coursedisplay', 'value': 0
+            }
+        ], 'showactivitydates': True, 'showcompletionconditions': True
+    },
+    {'id': 270, 'shortname': 'edsex-2-encuentra', 'categoryid': 27, 'categorysortorder': 210002, 'fullname': 'Educación afectivo-sexual (2) [Encuentra
+        ]: Actuación educativa', 'displayname': 'Educación afectivo-sexual (2) [Encuentra
+        ]: Actuación educativa', 'idnumber': '', 'summary': '', 'summaryformat': 1, 'format': 'topics', 'showgrades': 1, 'newsitems': 5, 'startdate': 1676242800, 'enddate': 0, 'numsections': 7, 'maxbytes': 0, 'showreports': 0, 'visible': 1, 'hiddensections': 0, 'groupmode': 0, 'groupmodeforce': 0, 'defaultgroupingid': 0, 'timecreated': 1676221617, 'timemodified': 1676221617, 'enablecompletion': 1, 'completionnotify': 0, 'lang': '', 'forcetheme': '', 'courseformatoptions': [
+            {'name': 'hiddensections', 'value': 0
+            },
+            {'name': 'coursedisplay', 'value': 0
+            }
+        ], 'showactivitydates': True, 'showcompletionconditions': True
+    },
+    {'id': 271, 'shortname': 'edsex-3-encuentra', 'categoryid': 27, 'categorysortorder': 210001, 'fullname': 'Educación afectivo-sexual', 'displayname': 'Educación afectivo-sexual', 'idnumber': '', 'summary': '', 'summaryformat': 1, 'format': 'topics', 'showgrades': 1, 'newsitems': 5, 'startdate': 1676242800, 'enddate': 0, 'numsections': 4, 'maxbytes': 0, 'showreports': 0, 'visible': 1, 'hiddensections': 0, 'groupmode': 0, 'groupmodeforce': 0, 'defaultgroupingid': 0, 'timecreated': 1676221832, 'timemodified': 1676221832, 'enablecompletion': 1, 'completionnotify': 0, 'lang': '', 'forcetheme': '', 'courseformatoptions': [
+            {'name': 'hiddensections', 'value': 0
+            },
+            {'name': 'coursedisplay', 'value': 0
+            }
+        ], 'showactivitydates': True, 'showcompletionconditions': True
+    },
+    {'id': 273, 'shortname': 'acesp', 'categoryid': 28, 'categorysortorder': 10013, 'fullname': 'Acompañamiento Espiritual', 'displayname': 'Acompañamiento Espiritual', 'idnumber': '', 'summary': '<p dir="ltr" style="text-align:center;"><em>Fundamentos del acompañamiento espiritual y aspectos prácticos</em></p>', 'summaryformat': 1, 'format': 'topics', 'showgrades': 1, 'newsitems': 5, 'startdate': 1689026400, 'enddate': 1690754400, 'numsections': 3, 'maxbytes': 0, 'showreports': 0, 'visible': 0, 'hiddensections': 0, 'groupmode': 1, 'groupmodeforce': 1, 'defaultgroupingid': 0, 'timecreated': 1678976719, 'timemodified': 1694536514, 'enablecompletion': 1, 'completionnotify': 0, 'lang': '', 'forcetheme': '', 'courseformatoptions': [
+            {'name': 'hiddensections', 'value': 0
+            },
+            {'name': 'coursedisplay', 'value': 0
+            }
+        ], 'showactivitydates': True, 'showcompletionconditions': True
+    },
+    {'id': 277, 'shortname': 'catequistas-4', 'categoryid': 28, 'categorysortorder': 10012, 'fullname': 'Catequesis de Iniciación Cristiana en familia', 'displayname': 'Catequesis de Iniciación Cristiana en familia', 'idnumber': '', 'summary': '<p dir="ltr" style="text-align:center;"><em>Principios básicos y primeros pasos de la catequesis familiar</em></p>', 'summaryformat': 1, 'format': 'topics', 'showgrades': 1, 'newsitems': 5, 'startdate': 1694124000, 'enddate': 1697407200, 'numsections': 7, 'maxbytes': 0, 'showreports': 0, 'visible': 1, 'hiddensections': 1, 'groupmode': 1, 'groupmodeforce': 1, 'defaultgroupingid': 0, 'timecreated': 1679926536, 'timemodified': 1694535375, 'enablecompletion': 1, 'completionnotify': 0, 'lang': '', 'forcetheme': '', 'courseformatoptions': [
+            {'name': 'hiddensections', 'value': 1
+            },
+            {'name': 'coursedisplay', 'value': 0
+            }
+        ], 'showactivitydates': True, 'showcompletionconditions': True
+    },
+    {'id': 280, 'shortname': 'matrimonio-3', 'categoryid': 28, 'categorysortorder': 10010, 'fullname': 'Catequesis para novios y matrimonios jóvenes', 'displayname': 'Catequesis para novios y matrimonios jóvenes', 'idnumber': '', 'summary': '<p style="text-align:center;"><em>Principios básicos y primeros pasos para la catequesis y el acompañamiento de novios y matrimonios</em></p>', 'summaryformat': 1, 'format': 'topics', 'showgrades': 1, 'newsitems': 5, 'startdate': 1696716000, 'enddate': 1700460000, 'numsections': 10, 'maxbytes': 0, 'showreports': 0, 'visible': 1, 'hiddensections': 0, 'groupmode': 1, 'groupmodeforce': 1, 'defaultgroupingid': 0, 'timecreated': 1681304235, 'timemodified': 1700036242, 'enablecompletion': 1, 'completionnotify': 0, 'lang': '', 'forcetheme': '', 'courseformatoptions': [
+            {'name': 'hiddensections', 'value': 0
+            },
+            {'name': 'coursedisplay', 'value': 1
+            }
+        ], 'showactivitydates': True, 'showcompletionconditions': True
+    },
+    {'id': 281, 'shortname': 'quovadis-4', 'categoryid': 28, 'categorysortorder': 10009, 'fullname': 'Quo Vadis?', 'displayname': 'Quo Vadis?', 'idnumber': '', 'summary': '<p dir="ltr" style="text-align:center;"><em>Curso de Antropología cristiana y Apologética</em></p>', 'summaryformat': 1, 'format': 'topics', 'showgrades': 1, 'newsitems': 5, 'startdate': 1699398000, 'enddate': 0, 'numsections': 5, 'maxbytes': 0, 'showreports': 0, 'visible': 1, 'hiddensections': 0, 'groupmode': 1, 'groupmodeforce': 1, 'defaultgroupingid': 0, 'timecreated': 1681809731, 'timemodified': 1708360118, 'enablecompletion': 1, 'completionnotify': 0, 'lang': '', 'forcetheme': '', 'courseformatoptions': [
+            {'name': 'hiddensections', 'value': 0
+            },
+            {'name': 'coursedisplay', 'value': 0
+            }
+        ], 'showactivitydates': True, 'showcompletionconditions': True
+    },
+    {'id': 283, 'shortname': 'at-3', 'categoryid': 28, 'categorysortorder': 10008, 'fullname': 'Sagrada Escritura: Antiguo Testamento', 'displayname': 'Sagrada Escritura: Antiguo Testamento', 'idnumber': '', 'summary': '<p style="text-align:center;"><i>Introducción, Patriarcas, Éxodo, Jueces, Reyes, Profetas y Exilio</i></p>', 'summaryformat': 1, 'format': 'topics', 'showgrades': 1, 'newsitems': 5, 'startdate': 1709852400, 'enddate': 1716271140, 'numsections': 5, 'maxbytes': 0, 'showreports': 0, 'visible': 1, 'hiddensections': 0, 'groupmode': 1, 'groupmodeforce': 1, 'defaultgroupingid': 0, 'timecreated': 1656327404, 'timemodified': 1715788916, 'enablecompletion': 1, 'completionnotify': 0, 'lang': '', 'forcetheme': '', 'courseformatoptions': [
+            {'name': 'hiddensections', 'value': 0
+            },
+            {'name': 'coursedisplay', 'value': 0
+            }
+        ], 'showactivitydates': False, 'showcompletionconditions': True
+    },
+    {'id': 284, 'shortname': 'edsex-3', 'categoryid': 28, 'categorysortorder': 10007, 'fullname': 'Educación afectivo-sexual', 'displayname': 'Educación afectivo-sexual', 'idnumber': '', 'summary': '<p dir="ltr" style="text-align:center;"><em>Contexto social y cultural y actuación educativa</em></p>', 'summaryformat': 1, 'format': 'topics', 'showgrades': 1, 'newsitems': 5, 'startdate': 1707379200, 'enddate': 1710568800, 'numsections': 6, 'maxbytes': 0, 'showreports': 0, 'visible': 1, 'hiddensections': 0, 'groupmode': 1, 'groupmodeforce': 1, 'defaultgroupingid': 0, 'timecreated': 1642183350, 'timemodified': 1699086981, 'enablecompletion': 1, 'completionnotify': 0, 'lang': '', 'forcetheme': '', 'courseformatoptions': [
+            {'name': 'hiddensections', 'value': 0
+            },
+            {'name': 'coursedisplay', 'value': 0
+            }
+        ], 'showactivitydates': False, 'showcompletionconditions': True
+    },
+    {'id': 285, 'shortname': 'colaboradores', 'categoryid': 28, 'categorysortorder': 10006, 'fullname': 'Colaboradores de #BeCaT', 'displayname': 'Colaboradores de #BeCaT', 'idnumber': '', 'summary': '<p dir="ltr" style="text-align:center;">Curso de formación para voluntarios</p>', 'summaryformat': 1, 'format': 'topics', 'showgrades': 1, 'newsitems': 5, 'startdate': 1705186800, 'enddate': 1707717600, 'numsections': 8, 'maxbytes': 0, 'showreports': 0, 'visible': 1, 'hiddensections': 0, 'groupmode': 1, 'groupmodeforce': 1, 'defaultgroupingid': 0, 'timecreated': 1632486792, 'timemodified': 1706797491, 'enablecompletion': 1, 'completionnotify': 0, 'lang': '', 'forcetheme': '', 'courseformatoptions': [
+            {'name': 'hiddensections', 'value': 0
+            },
+            {'name': 'coursedisplay', 'value': 0
+            }
+        ], 'showactivitydates': False, 'showcompletionconditions': True
+    },
+    {'id': 287, 'shortname': 'dsi-ica', 'categoryid': 10, 'categorysortorder': 100002, 'fullname': 'Doctrina Social de la Iglesia (Ica)', 'displayname': 'Doctrina Social de la Iglesia (Ica)', 'idnumber': '', 'summary': '', 'summaryformat': 1, 'format': 'topics', 'showgrades': 1, 'newsitems': 5, 'startdate': 1688162400, 'enddate': 1690754400, 'numsections': 16, 'maxbytes': 0, 'showreports': 0, 'visible': 0, 'hiddensections': 0, 'groupmode': 0, 'groupmodeforce': 0, 'defaultgroupingid': 0, 'timecreated': 1683573367, 'timemodified': 1694187796, 'enablecompletion': 1, 'completionnotify': 0, 'lang': '', 'forcetheme': '', 'courseformatoptions': [
+            {'name': 'hiddensections', 'value': 0
+            },
+            {'name': 'coursedisplay', 'value': 0
+            }
+        ], 'showactivitydates': True, 'showcompletionconditions': True
+    },
+    {'id': 288, 'shortname': 'seminario-menor', 'categoryid': 5, 'categorysortorder': 160006, 'fullname': 'Catequesis Familiar - Colegio Seminario Menor', 'displayname': 'Catequesis Familiar - Colegio Seminario Menor', 'idnumber': '', 'summary': '', 'summaryformat': 1, 'format': 'topics', 'showgrades': 1, 'newsitems': 5, 'startdate': 1683669600, 'enddate': 1715205600, 'numsections': 11, 'maxbytes': 0, 'showreports': 0, 'visible': 1, 'hiddensections': 1, 'groupmode': 0, 'groupmodeforce': 0, 'defaultgroupingid': 0, 'timecreated': 1683621223, 'timemodified': 1684334696, 'enablecompletion': 1, 'completionnotify': 0, 'lang': '', 'forcetheme': '', 'courseformatoptions': [
+            {'name': 'hiddensections', 'value': 1
+            },
+            {'name': 'coursedisplay', 'value': 1
+            }
+        ], 'showactivitydates': True, 'showcompletionconditions': True
+    },
+    {'id': 290, 'shortname': 'loyola', 'categoryid': 4, 'categorysortorder': 30003, 'fullname': 'Parroquia de San Ignacio de Loyola - Arequipa  ', 'displayname': 'Parroquia de San Ignacio de Loyola - Arequipa  ', 'idnumber': '', 'summary': '', 'summaryformat': 1, 'format': 'topics', 'showgrades': 1, 'newsitems': 5, 'startdate': 1686261600, 'enddate': 1717797600, 'numsections': 11, 'maxbytes': 0, 'showreports': 0, 'visible': 1, 'hiddensections': 1, 'groupmode': 0, 'groupmodeforce': 0, 'defaultgroupingid': 0, 'timecreated': 1686211521, 'timemodified': 1686212420, 'enablecompletion': 1, 'completionnotify': 0, 'lang': '', 'forcetheme': '', 'courseformatoptions': [
+            {'name': 'hiddensections', 'value': 1
+            },
+            {'name': 'coursedisplay', 'value': 1
+            }
+        ], 'showactivitydates': True, 'showcompletionconditions': True
+    },
+    {'id': 291, 'shortname': 'repositorio', 'categoryid': 19, 'categorysortorder': 220001, 'fullname': 'Repositorio', 'displayname': 'Repositorio', 'idnumber': '', 'summary': '', 'summaryformat': 1, 'format': 'topics', 'showgrades': 1, 'newsitems': 5, 'startdate': 1686261600, 'enddate': 0, 'numsections': 26, 'maxbytes': 0, 'showreports': 0, 'visible': 1, 'hiddensections': 0, 'groupmode': 0, 'groupmodeforce': 0, 'defaultgroupingid': 0, 'timecreated': 1686227287, 'timemodified': 1715711107, 'enablecompletion': 1, 'completionnotify': 0, 'lang': '', 'forcetheme': '', 'courseformatoptions': [
+            {'name': 'hiddensections', 'value': 0
+            },
+            {'name': 'coursedisplay', 'value': 1
+            }
+        ], 'showactivitydates': True, 'showcompletionconditions': True
+    },
+    {'id': 297, 'shortname': 'cf-invitados', 'categoryid': 30, 'categorysortorder': 230010, 'fullname': 'Aula de catequesis familiar - Invitados', 'displayname': 'Aula de catequesis familiar - Invitados', 'idnumber': '', 'summary': '', 'summaryformat': 1, 'format': 'topics', 'showgrades': 1, 'newsitems': 5, 'startdate': 1694988000, 'enddate': 1727709420, 'numsections': 11, 'maxbytes': 0, 'showreports': 0, 'visible': 1, 'hiddensections': 1, 'groupmode': 1, 'groupmodeforce': 1, 'defaultgroupingid': 0, 'timecreated': 1687157111, 'timemodified': 1695136664, 'enablecompletion': 1, 'completionnotify': 0, 'lang': '', 'forcetheme': '', 'courseformatoptions': [
+            {'name': 'hiddensections', 'value': 1
+            },
+            {'name': 'coursedisplay', 'value': 1
+            }
+        ], 'showactivitydates': True, 'showcompletionconditions': True
+    },
+    {'id': 298, 'shortname': 'at-invitados', 'categoryid': 30, 'categorysortorder': 230012, 'fullname': 'Sagrada Escritura: Antiguo Testamento - Invitados', 'displayname': 'Sagrada Escritura: Antiguo Testamento - Invitados', 'idnumber': '', 'summary': '', 'summaryformat': 1, 'format': 'topics', 'showgrades': 1, 'newsitems': 5, 'startdate': 1698793200, 'enddate': 1719784800, 'numsections': 4, 'maxbytes': 0, 'showreports': 0, 'visible': 1, 'hiddensections': 0, 'groupmode': 0, 'groupmodeforce': 0, 'defaultgroupingid': 0, 'timecreated': 1687158295, 'timemodified': 1699446358, 'enablecompletion': 1, 'completionnotify': 0, 'lang': '', 'forcetheme': '', 'courseformatoptions': [
+            {'name': 'hiddensections', 'value': 0
+            },
+            {'name': 'coursedisplay', 'value': 0
+            }
+        ], 'showactivitydates': True, 'showcompletionconditions': True
+    },
+    {'id': 300, 'shortname': 'matrimonio-invitados', 'categoryid': 30, 'categorysortorder': 230011, 'fullname': 'Catequesis para novios y matrimonios jóvenes - Invitados', 'displayname': 'Catequesis para novios y matrimonios jóvenes - Invitados', 'idnumber': '', 'summary': '', 'summaryformat': 1, 'format': 'topics', 'showgrades': 1, 'newsitems': 5, 'startdate': 1698793200, 'enddate': 1719784800, 'numsections': 9, 'maxbytes': 0, 'showreports': 0, 'visible': 1, 'hiddensections': 0, 'groupmode': 0, 'groupmodeforce': 0, 'defaultgroupingid': 0, 'timecreated': 1687159159, 'timemodified': 1699446184, 'enablecompletion': 1, 'completionnotify': 0, 'lang': '', 'forcetheme': '', 'courseformatoptions': [
+            {'name': 'hiddensections', 'value': 0
+            },
+            {'name': 'coursedisplay', 'value': 0
+            }
+        ], 'showactivitydates': True, 'showcompletionconditions': True
+    },
+    {'id': 301, 'shortname': 'acesp-invitados', 'categoryid': 30, 'categorysortorder': 230014, 'fullname': 'Acompañamiento Espiritual - Invitados', 'displayname': 'Acompañamiento Espiritual - Invitados', 'idnumber': '', 'summary': '', 'summaryformat': 1, 'format': 'topics', 'showgrades': 1, 'newsitems': 5, 'startdate': 1694988000, 'enddate': 1735599600, 'numsections': 3, 'maxbytes': 0, 'showreports': 0, 'visible': 1, 'hiddensections': 0, 'groupmode': 1, 'groupmodeforce': 1, 'defaultgroupingid': 0, 'timecreated': 1687159471, 'timemodified': 1715531953, 'enablecompletion': 1, 'completionnotify': 0, 'lang': '', 'forcetheme': '', 'courseformatoptions': [
+            {'name': 'hiddensections', 'value': 0
+            },
+            {'name': 'coursedisplay', 'value': 0
+            }
+        ], 'showactivitydates': True, 'showcompletionconditions': True
+    },
+    {'id': 302, 'shortname': 'dsi-invitados', 'categoryid': 30, 'categorysortorder': 230013, 'fullname': 'Doctrina Social de la Iglesia - Invitados', 'displayname': 'Doctrina Social de la Iglesia - Invitados', 'idnumber': '', 'summary': '', 'summaryformat': 1, 'format': 'topics', 'showgrades': 1, 'newsitems': 5, 'startdate': 1694988000, 'enddate': 1727710260, 'numsections': 16, 'maxbytes': 0, 'showreports': 0, 'visible': 1, 'hiddensections': 0, 'groupmode': 1, 'groupmodeforce': 1, 'defaultgroupingid': 0, 'timecreated': 1687159710, 'timemodified': 1695137509, 'enablecompletion': 1, 'completionnotify': 0, 'lang': '', 'forcetheme': '', 'courseformatoptions': [
+            {'name': 'hiddensections', 'value': 0
+            },
+            {'name': 'coursedisplay', 'value': 0
+            }
+        ], 'showactivitydates': True, 'showcompletionconditions': True
+    },
+    {'id': 304, 'shortname': 'at-ica', 'categoryid': 10, 'categorysortorder': 100001, 'fullname': 'Sagrada Escritura: Antiguo Testamento (Ica)', 'displayname': 'Sagrada Escritura: Antiguo Testamento (Ica)', 'idnumber': '', 'summary': '', 'summaryformat': 1, 'format': 'topics', 'showgrades': 1, 'newsitems': 5, 'startdate': 1688162400, 'enddate': 1688162400, 'numsections': 4, 'maxbytes': 0, 'showreports': 0, 'visible': 0, 'hiddensections': 0, 'groupmode': 0, 'groupmodeforce': 0, 'defaultgroupingid': 0, 'timecreated': 1687262690, 'timemodified': 1694187413, 'enablecompletion': 1, 'completionnotify': 0, 'lang': '', 'forcetheme': '', 'courseformatoptions': [
+            {'name': 'hiddensections', 'value': 0
+            },
+            {'name': 'coursedisplay', 'value': 0
+            }
+        ], 'showactivitydates': True, 'showcompletionconditions': True
+    },
+    {'id': 305, 'shortname': 'aldebaran-C', 'categoryid': 16, 'categorysortorder': 70002, 'fullname': 'Catequesis Familiar - Aldebarán C', 'displayname': 'Catequesis Familiar - Aldebarán C', 'idnumber': '', 'summary': '', 'summaryformat': 1, 'format': 'topics', 'showgrades': 1, 'newsitems': 5, 'startdate': 1687471200, 'enddate': 1719007200, 'numsections': 11, 'maxbytes': 0, 'showreports': 0, 'visible': 1, 'hiddensections': 1, 'groupmode': 0, 'groupmodeforce': 0, 'defaultgroupingid': 0, 'timecreated': 1687430677, 'timemodified': 1687434509, 'enablecompletion': 1, 'completionnotify': 0, 'lang': '', 'forcetheme': '', 'courseformatoptions': [
+            {'name': 'hiddensections', 'value': 1
+            },
+            {'name': 'coursedisplay', 'value': 1
+            }
+        ], 'showactivitydates': True, 'showcompletionconditions': True
+    },
+    {'id': 306, 'shortname': 'aldebaran-D', 'categoryid': 16, 'categorysortorder': 70001, 'fullname': 'Catequesis Familiar - Aldebarán D', 'displayname': 'Catequesis Familiar - Aldebarán D', 'idnumber': '', 'summary': '', 'summaryformat': 1, 'format': 'topics', 'showgrades': 1, 'newsitems': 5, 'startdate': 1687471200, 'enddate': 1719007200, 'numsections': 11, 'maxbytes': 0, 'showreports': 0, 'visible': 1, 'hiddensections': 1, 'groupmode': 0, 'groupmodeforce': 0, 'defaultgroupingid': 0, 'timecreated': 1687432232, 'timemodified': 1687434482, 'enablecompletion': 1, 'completionnotify': 0, 'lang': '', 'forcetheme': '', 'courseformatoptions': [
+            {'name': 'hiddensections', 'value': 1
+            },
+            {'name': 'coursedisplay', 'value': 1
+            }
+        ], 'showactivitydates': True, 'showcompletionconditions': True
+    },
+    {'id': 307, 'shortname': 'cf-lima', 'categoryid': 13, 'categorysortorder': 110004, 'fullname': 'Catequesis de Iniciación Cristiana en familia ', 'displayname': 'Catequesis de Iniciación Cristiana en familia ', 'idnumber': '', 'summary': '', 'summaryformat': 1, 'format': 'topics', 'showgrades': 1, 'newsitems': 5, 'startdate': 1687644000, 'enddate': 1719180000, 'numsections': 11, 'maxbytes': 0, 'showreports': 0, 'visible': 1, 'hiddensections': 1, 'groupmode': 0, 'groupmodeforce': 0, 'defaultgroupingid': 0, 'timecreated': 1687591322, 'timemodified': 1687593023, 'enablecompletion': 1, 'completionnotify': 0, 'lang': '', 'forcetheme': '', 'courseformatoptions': [
+            {'name': 'hiddensections', 'value': 1
+            },
+            {'name': 'coursedisplay', 'value': 1
+            }
+        ], 'showactivitydates': True, 'showcompletionconditions': True
+    },
+    {'id': 308, 'shortname': 'catequistas-lima', 'categoryid': 13, 'categorysortorder': 110003, 'fullname': 'Catequesis de Iniciación Cristiana (para catequistas)', 'displayname': 'Catequesis de Iniciación Cristiana (para catequistas)', 'idnumber': '', 'summary': '', 'summaryformat': 1, 'format': 'topics', 'showgrades': 1, 'newsitems': 5, 'startdate': 1687644000, 'enddate': 1719180000, 'numsections': 5, 'maxbytes': 0, 'showreports': 0, 'visible': 1, 'hiddensections': 0, 'groupmode': 0, 'groupmodeforce': 0, 'defaultgroupingid': 0, 'timecreated': 1687620308, 'timemodified': 1687620610, 'enablecompletion': 1, 'completionnotify': 0, 'lang': '', 'forcetheme': '', 'courseformatoptions': [
+            {'name': 'hiddensections', 'value': 0
+            },
+            {'name': 'coursedisplay', 'value': 0
+            }
+        ], 'showactivitydates': True, 'showcompletionconditions': True
+    },
+    {'id': 312, 'shortname': 'Registro', 'categoryid': 30, 'categorysortorder': 230009, 'fullname': 'Registro', 'displayname': 'Registro', 'idnumber': '', 'summary': '', 'summaryformat': 1, 'format': 'topics', 'showgrades': 1, 'newsitems': 5, 'startdate': 1691272800, 'enddate': 1722808800, 'numsections': 0, 'maxbytes': 0, 'showreports': 0, 'visible': 1, 'hiddensections': 0, 'groupmode': 0, 'groupmodeforce': 0, 'defaultgroupingid': 0, 'timecreated': 1691236203, 'timemodified': 1691236203, 'enablecompletion': 1, 'completionnotify': 0, 'lang': '', 'forcetheme': '', 'courseformatoptions': [
+            {'name': 'hiddensections', 'value': 0
+            },
+            {'name': 'coursedisplay', 'value': 0
+            }
+        ], 'showactivitydates': True, 'showcompletionconditions': True
+    },
+    {'id': 313, 'shortname': 'iglesia', 'categoryid': 28, 'categorysortorder': 10005, 'fullname': 'La Iglesia', 'displayname': 'La Iglesia', 'idnumber': '', 'summary': '<p dir="ltr" style="text-align:center;"><em>Eclesiología y ecumenismo</em></p>', 'summaryformat': 1, 'format': 'topics', 'showgrades': 1, 'newsitems': 5, 'startdate': 1698793200, 'enddate': 1705298400, 'numsections': 6, 'maxbytes': 0, 'showreports': 0, 'visible': 1, 'hiddensections': 0, 'groupmode': 1, 'groupmodeforce': 1, 'defaultgroupingid': 0, 'timecreated': 1678976719, 'timemodified': 1704041943, 'enablecompletion': 1, 'completionnotify': 0, 'lang': '', 'forcetheme': '', 'courseformatoptions': [
+            {'name': 'hiddensections', 'value': 0
+            },
+            {'name': 'coursedisplay', 'value': 0
+            }
+        ], 'showactivitydates': True, 'showcompletionconditions': True
+    },
+    {'id': 314, 'shortname': 'iglesia-muestra', 'categoryid': 3, 'categorysortorder': 140004, 'fullname': 'La Iglesia (muestra)', 'displayname': 'La Iglesia (muestra)', 'idnumber': '', 'summary': '', 'summaryformat': 1, 'format': 'topics', 'showgrades': 1, 'newsitems': 5, 'startdate': 1691877600, 'enddate': 0, 'numsections': 2, 'maxbytes': 0, 'showreports': 0, 'visible': 1, 'hiddensections': 0, 'groupmode': 0, 'groupmodeforce': 0, 'defaultgroupingid': 0, 'timecreated': 1691825021, 'timemodified': 1691825021, 'enablecompletion': 1, 'completionnotify': 0, 'lang': '', 'forcetheme': '', 'courseformatoptions': [
+            {'name': 'hiddensections', 'value': 0
+            },
+            {'name': 'coursedisplay', 'value': 0
+            }
+        ], 'showactivitydates': True, 'showcompletionconditions': True
+    },
+    {'id': 315, 'shortname': 'iglesia-invitados', 'categoryid': 30, 'categorysortorder': 230008, 'fullname': 'La Iglesia', 'displayname': 'La Iglesia', 'idnumber': '', 'summary': '<p dir="ltr" style="text-align:center;"><em>Eclesiología y ecumenismo</em><br /></p>', 'summaryformat': 1, 'format': 'topics', 'showgrades': 1, 'newsitems': 5, 'startdate': 1698793200, 'enddate': 1722376800, 'numsections': 6, 'maxbytes': 0, 'showreports': 0, 'visible': 1, 'hiddensections': 0, 'groupmode': 0, 'groupmodeforce': 0, 'defaultgroupingid': 0, 'timecreated': 1693506398, 'timemodified': 1699446048, 'enablecompletion': 1, 'completionnotify': 0, 'lang': '', 'forcetheme': '', 'courseformatoptions': [
+            {'name': 'hiddensections', 'value': 0
+            },
+            {'name': 'coursedisplay', 'value': 0
+            }
+        ], 'showactivitydates': True, 'showcompletionconditions': True
+    },
+    {'id': 316, 'shortname': 'antares', 'categoryid': 18, 'categorysortorder': 90002, 'fullname': 'Antares Bilingual School', 'displayname': 'Antares Bilingual School', 'idnumber': '', 'summary': '', 'summaryformat': 1, 'format': 'topics', 'showgrades': 1, 'newsitems': 5, 'startdate': 1693864800, 'enddate': 1714428000, 'numsections': 11, 'maxbytes': 0, 'showreports': 0, 'visible': 1, 'hiddensections': 1, 'groupmode': 0, 'groupmodeforce': 0, 'defaultgroupingid': 0, 'timecreated': 1693825537, 'timemodified': 1704998396, 'enablecompletion': 1, 'completionnotify': 0, 'lang': '', 'forcetheme': '', 'courseformatoptions': [
+            {'name': 'hiddensections', 'value': 1
+            },
+            {'name': 'coursedisplay', 'value': 1
+            }
+        ], 'showactivitydates': True, 'showcompletionconditions': True
+    },
+    {'id': 318, 'shortname': 'cf-inicio', 'categoryid': 30, 'categorysortorder': 230007, 'fullname': 'Aula de catequesis familiar - INICIO', 'displayname': 'Aula de catequesis familiar - INICIO', 'idnumber': '', 'summary': '', 'summaryformat': 1, 'format': 'topics', 'showgrades': 1, 'newsitems': 5, 'startdate': 1694383200, 'enddate': 1726130160, 'numsections': 11, 'maxbytes': 0, 'showreports': 0, 'visible': 1, 'hiddensections': 1, 'groupmode': 0, 'groupmodeforce': 0, 'defaultgroupingid': 0, 'timecreated': 1687157111, 'timemodified': 1694510740, 'enablecompletion': 1, 'completionnotify': 0, 'lang': '', 'forcetheme': '', 'courseformatoptions': [
+            {'name': 'hiddensections', 'value': 1
+            },
+            {'name': 'coursedisplay', 'value': 1
+            }
+        ], 'showactivitydates': True, 'showcompletionconditions': True
+    },
+    {'id': 319, 'shortname': 'maria-auxiliadora-D', 'categoryid': 21, 'categorysortorder': 40001, 'fullname': 'Parroquia de María Auxiliadora (D)', 'displayname': 'Parroquia de María Auxiliadora (D)', 'idnumber': '', 'summary': '<p dir="ltr" style="text-align:center;"><small>Aula de muestra</small></p>', 'summaryformat': 1, 'format': 'topics', 'showgrades': 1, 'newsitems': 5, 'startdate': 1694556000, 'enddate': 1726264800, 'numsections': 11, 'maxbytes': 0, 'showreports': 0, 'visible': 1, 'hiddensections': 1, 'groupmode': 1, 'groupmodeforce': 1, 'defaultgroupingid': 0, 'timecreated': 1658145381, 'timemodified': 1694608100, 'enablecompletion': 1, 'completionnotify': 0, 'lang': '', 'forcetheme': '', 'courseformatoptions': [
+            {'name': 'hiddensections', 'value': 1
+            },
+            {'name': 'coursedisplay', 'value': 1
+            }
+        ], 'showactivitydates': False, 'showcompletionconditions': True
+    },
+    {'id': 320, 'shortname': 'cic-invitados', 'categoryid': 30, 'categorysortorder': 230006, 'fullname': 'Catequesis de Iniciación Cristiana en familia (para catequistas) - invitados', 'displayname': 'Catequesis de Iniciación Cristiana en familia (para catequistas) - invitados', 'idnumber': '', 'summary': '<p dir="ltr" style="text-align:center;"><em>Principios básicos y primeros pasos de la catequesis familiar</em></p>', 'summaryformat': 1, 'format': 'topics', 'showgrades': 1, 'newsitems': 5, 'startdate': 1698793200, 'enddate': 1722376800, 'numsections': 6, 'maxbytes': 0, 'showreports': 0, 'visible': 1, 'hiddensections': 1, 'groupmode': 1, 'groupmodeforce': 1, 'defaultgroupingid': 0, 'timecreated': 1679926536, 'timemodified': 1699448583, 'enablecompletion': 1, 'completionnotify': 0, 'lang': '', 'forcetheme': '', 'courseformatoptions': [
+            {'name': 'hiddensections', 'value': 1
+            },
+            {'name': 'coursedisplay', 'value': 0
+            }
+        ], 'showactivitydates': True, 'showcompletionconditions': True
+    },
+    {'id': 321, 'shortname': 'catequistas-fff', 'categoryid': 23, 'categorysortorder': 190008, 'fullname': 'Curso de capacitación para catequistas familiares', 'displayname': 'Curso de capacitación para catequistas familiares', 'idnumber': '', 'summary': '<p dir="ltr" style="text-align:center;"><em>Principios básicos y primeros pasos de la catequesis familiar</em></p>', 'summaryformat': 1, 'format': 'topics', 'showgrades': 1, 'newsitems': 5, 'startdate': 1694988000, 'enddate': 1696156020, 'numsections': 7, 'maxbytes': 0, 'showreports': 0, 'visible': 1, 'hiddensections': 1, 'groupmode': 1, 'groupmodeforce': 1, 'defaultgroupingid': 0, 'timecreated': 1679926536, 'timemodified': 1709666551, 'enablecompletion': 1, 'completionnotify': 0, 'lang': '', 'forcetheme': '', 'courseformatoptions': [
+            {'name': 'hiddensections', 'value': 1
+            },
+            {'name': 'coursedisplay', 'value': 0
+            }
+        ], 'showactivitydates': True, 'showcompletionconditions': True
+    },
+    {'id': 322, 'shortname': 'quovadis-invitados', 'categoryid': 30, 'categorysortorder': 230005, 'fullname': 'Quo Vadis? - Invitados', 'displayname': 'Quo Vadis? - Invitados', 'idnumber': '', 'summary': '<p dir="ltr" style="text-align:center;"><em>Curso de Antropología cristiana y Apologética</em></p>', 'summaryformat': 1, 'format': 'topics', 'showgrades': 1, 'newsitems': 5, 'startdate': 1697925600, 'enddate': 1722376800, 'numsections': 4, 'maxbytes': 0, 'showreports': 0, 'visible': 1, 'hiddensections': 0, 'groupmode': 1, 'groupmodeforce': 1, 'defaultgroupingid': 0, 'timecreated': 1681809731, 'timemodified': 1699086705, 'enablecompletion': 1, 'completionnotify': 0, 'lang': '', 'forcetheme': '', 'courseformatoptions': [
+            {'name': 'hiddensections', 'value': 0
+            },
+            {'name': 'coursedisplay', 'value': 0
+            }
+        ], 'showactivitydates': True, 'showcompletionconditions': True
+    },
+    {'id': 323, 'shortname': 'cf-fff-nov23', 'categoryid': 23, 'categorysortorder': 190007, 'fullname': 'Aula CF - Noviembre 23', 'displayname': 'Aula CF - Noviembre 23', 'idnumber': '', 'summary': '', 'summaryformat': 1, 'format': 'topics', 'showgrades': 1, 'newsitems': 5, 'startdate': 1698357600, 'enddate': 1713301200, 'numsections': 11, 'maxbytes': 0, 'showreports': 0, 'visible': 0, 'hiddensections': 1, 'groupmode': 0, 'groupmodeforce': 0, 'defaultgroupingid': 0, 'timecreated': 1687157111, 'timemodified': 1713352875, 'enablecompletion': 1, 'completionnotify': 0, 'lang': '', 'forcetheme': '', 'courseformatoptions': [
+            {'name': 'hiddensections', 'value': 1
+            },
+            {'name': 'coursedisplay', 'value': 1
+            }
+        ], 'showactivitydates': True, 'showcompletionconditions': True
+    },
+    {'id': 325, 'shortname': 'iglesia-certificado', 'categoryid': 40, 'categorysortorder': 250008, 'fullname': 'La Iglesia', 'displayname': 'La Iglesia', 'idnumber': '', 'summary': '<p dir="ltr" style="text-align:center;">Módulo de descarga del certificado</p>', 'summaryformat': 1, 'format': 'topics', 'showgrades': 1, 'newsitems': 5, 'startdate': 1700953200, 'enddate': 1733007600, 'numsections': 1, 'maxbytes': 0, 'showreports': 0, 'visible': 1, 'hiddensections': 0, 'groupmode': 0, 'groupmodeforce': 0, 'defaultgroupingid': 0, 'timecreated': 1701002187, 'timemodified': 1701008208, 'enablecompletion': 1, 'completionnotify': 0, 'lang': '', 'forcetheme': '', 'courseformatoptions': [
+            {'name': 'hiddensections', 'value': 0
+            },
+            {'name': 'coursedisplay', 'value': 0
+            }
+        ], 'showactivitydates': True, 'showcompletionconditions': True
+    },
+    {'id': 326, 'shortname': 'catequistas-certificado', 'categoryid': 40, 'categorysortorder': 250007, 'fullname': 'Catequesis de iniciación cristiana en familia', 'displayname': 'Catequesis de iniciación cristiana en familia', 'idnumber': '', 'summary': '<p dir="ltr" style="text-align:center;">Módulo de descarga del certificado</p>', 'summaryformat': 1, 'format': 'topics', 'showgrades': 1, 'newsitems': 5, 'startdate': 1700953200, 'enddate': 1735602360, 'numsections': 1, 'maxbytes': 0, 'showreports': 0, 'visible': 1, 'hiddensections': 0, 'groupmode': 0, 'groupmodeforce': 0, 'defaultgroupingid': 0, 'timecreated': 1701002187, 'timemodified': 1701008155, 'enablecompletion': 1, 'completionnotify': 0, 'lang': '', 'forcetheme': '', 'courseformatoptions': [
+            {'name': 'hiddensections', 'value': 0
+            },
+            {'name': 'coursedisplay', 'value': 0
+            }
+        ], 'showactivitydates': True, 'showcompletionconditions': True
+    },
+    {'id': 327, 'shortname': 'edsex-certificado', 'categoryid': 40, 'categorysortorder': 250006, 'fullname': 'Educación afectivo-sexual', 'displayname': 'Educación afectivo-sexual', 'idnumber': '', 'summary': '<p dir="ltr" style="text-align:center;">Módulo de descarga del certificado</p>', 'summaryformat': 1, 'format': 'topics', 'showgrades': 1, 'newsitems': 5, 'startdate': 1701039600, 'enddate': 1733007600, 'numsections': 1, 'maxbytes': 0, 'showreports': 0, 'visible': 1, 'hiddensections': 0, 'groupmode': 0, 'groupmodeforce': 0, 'defaultgroupingid': 0, 'timecreated': 1701006637, 'timemodified': 1701006637, 'enablecompletion': 1, 'completionnotify': 0, 'lang': '', 'forcetheme': '', 'courseformatoptions': [
+            {'name': 'hiddensections', 'value': 0
+            },
+            {'name': 'coursedisplay', 'value': 0
+            }
+        ], 'showactivitydates': True, 'showcompletionconditions': True
+    },
+    {'id': 328, 'shortname': 'quovadis-certificado', 'categoryid': 40, 'categorysortorder': 250005, 'fullname': 'Quo vadis? Antropología y apologética cristianas', 'displayname': 'Quo vadis? Antropología y apologética cristianas', 'idnumber': '', 'summary': '<p dir="ltr" style="text-align:center;"><span style="font-size:15.6px;">Módulo de descarga del certificado</span><br /></p>', 'summaryformat': 1, 'format': 'topics', 'showgrades': 1, 'newsitems': 5, 'startdate': 1700953200, 'enddate': 1735599600, 'numsections': 1, 'maxbytes': 0, 'showreports': 0, 'visible': 1, 'hiddensections': 0, 'groupmode': 0, 'groupmodeforce': 0, 'defaultgroupingid': 0, 'timecreated': 1701006898, 'timemodified': 1701007297, 'enablecompletion': 1, 'completionnotify': 0, 'lang': '', 'forcetheme': '', 'courseformatoptions': [
+            {'name': 'hiddensections', 'value': 0
+            },
+            {'name': 'coursedisplay', 'value': 0
+            }
+        ], 'showactivitydates': True, 'showcompletionconditions': True
+    },
+    {'id': 329, 'shortname': 'matr-certificado', 'categoryid': 40, 'categorysortorder': 250004, 'fullname': 'Catequesis para novios y matrimonios jóvenes', 'displayname': 'Catequesis para novios y matrimonios jóvenes', 'idnumber': '', 'summary': '<p dir="ltr" style="text-align:center;">Módulo de descarga del certificado<br /></p>', 'summaryformat': 1, 'format': 'topics', 'showgrades': 1, 'newsitems': 5, 'startdate': 1700953200, 'enddate': 1735599600, 'numsections': 1, 'maxbytes': 0, 'showreports': 0, 'visible': 1, 'hiddensections': 0, 'groupmode': 0, 'groupmodeforce': 0, 'defaultgroupingid': 0, 'timecreated': 1701007358, 'timemodified': 1701007358, 'enablecompletion': 1, 'completionnotify': 0, 'lang': '', 'forcetheme': '', 'courseformatoptions': [
+            {'name': 'hiddensections', 'value': 0
+            },
+            {'name': 'coursedisplay', 'value': 0
+            }
+        ], 'showactivitydates': True, 'showcompletionconditions': True
+    },
+    {'id': 330, 'shortname': 'dsi-certificado', 'categoryid': 40, 'categorysortorder': 250003, 'fullname': 'Doctrina Social de la Iglesia', 'displayname': 'Doctrina Social de la Iglesia', 'idnumber': '', 'summary': '<p dir="ltr" style="text-align:center;">Módulo de descarga del certificado<br /></p>', 'summaryformat': 1, 'format': 'topics', 'showgrades': 1, 'newsitems': 5, 'startdate': 1700953200, 'enddate': 1735599600, 'numsections': 1, 'maxbytes': 0, 'showreports': 0, 'visible': 1, 'hiddensections': 0, 'groupmode': 0, 'groupmodeforce': 0, 'defaultgroupingid': 0, 'timecreated': 1701007571, 'timemodified': 1701007571, 'enablecompletion': 1, 'completionnotify': 0, 'lang': '', 'forcetheme': '', 'courseformatoptions': [
+            {'name': 'hiddensections', 'value': 0
+            },
+            {'name': 'coursedisplay', 'value': 0
+            }
+        ], 'showactivitydates': True, 'showcompletionconditions': True
+    },
+    {'id': 331, 'shortname': 'acesp-certificado', 'categoryid': 40, 'categorysortorder': 250002, 'fullname': 'Acompañamiento Espiritual', 'displayname': 'Acompañamiento Espiritual', 'idnumber': '', 'summary': '<p dir="ltr" style="text-align:center;">Módulo de descarga del certificado<br /></p>', 'summaryformat': 1, 'format': 'topics', 'showgrades': 1, 'newsitems': 5, 'startdate': 1700953200, 'enddate': 1735599600, 'numsections': 1, 'maxbytes': 0, 'showreports': 0, 'visible': 1, 'hiddensections': 0, 'groupmode': 0, 'groupmodeforce': 0, 'defaultgroupingid': 0, 'timecreated': 1701007753, 'timemodified': 1701007753, 'enablecompletion': 1, 'completionnotify': 0, 'lang': '', 'forcetheme': '', 'courseformatoptions': [
+            {'name': 'hiddensections', 'value': 0
+            },
+            {'name': 'coursedisplay', 'value': 0
+            }
+        ], 'showactivitydates': True, 'showcompletionconditions': True
+    },
+    {'id': 332, 'shortname': 'at-certificado', 'categoryid': 40, 'categorysortorder': 250001, 'fullname': 'Sagrada Escritura: Antiguo Testamento', 'displayname': 'Sagrada Escritura: Antiguo Testamento', 'idnumber': '', 'summary': '<p dir="ltr" style="text-align:center;">Módulo de descarga del certificado<br /></p>', 'summaryformat': 1, 'format': 'topics', 'showgrades': 1, 'newsitems': 5, 'startdate': 1700866800, 'enddate': 1735599600, 'numsections': 1, 'maxbytes': 0, 'showreports': 0, 'visible': 1, 'hiddensections': 0, 'groupmode': 0, 'groupmodeforce': 0, 'defaultgroupingid': 0, 'timecreated': 1701007896, 'timemodified': 1701007896, 'enablecompletion': 1, 'completionnotify': 0, 'lang': '', 'forcetheme': '', 'courseformatoptions': [
+            {'name': 'hiddensections', 'value': 0
+            },
+            {'name': 'coursedisplay', 'value': 0
+            }
+        ], 'showactivitydates': True, 'showcompletionconditions': True
+    },
+    {'id': 333, 'shortname': 'moral', 'categoryid': 28, 'categorysortorder': 10004, 'fullname': 'Moral fundamental', 'displayname': 'Moral fundamental', 'idnumber': '', 'summary': '<p dir="ltr" style="text-align:center;"><em>La peregrinación de la Gracia</em></p>', 'summaryformat': 1, 'format': 'topics', 'showgrades': 1, 'newsitems': 5, 'startdate': 1707692400, 'enddate': 1713823200, 'numsections': 6, 'maxbytes': 0, 'showreports': 0, 'visible': 1, 'hiddensections': 0, 'groupmode': 0, 'groupmodeforce': 0, 'defaultgroupingid': 0, 'timecreated': 1701428318, 'timemodified': 1712342472, 'enablecompletion': 1, 'completionnotify': 0, 'lang': '', 'forcetheme': '', 'courseformatoptions': [
+            {'name': 'hiddensections', 'value': 0
+            },
+            {'name': 'coursedisplay', 'value': 0
+            }
+        ], 'showactivitydates': True, 'showcompletionconditions': True
+    },
+    {'id': 334, 'shortname': 'sfc-1', 'categoryid': 23, 'categorysortorder': 190005, 'fullname': 'Síntesis de la fe católica (1)', 'displayname': 'Síntesis de la fe católica (1)', 'idnumber': '', 'summary': '<p dir="ltr" style="text-align:center;">Parte I (de II)</p>', 'summaryformat': 1, 'format': 'topics', 'showgrades': 1, 'newsitems': 5, 'startdate': 1702076400, 'enddate': 1733698800, 'numsections': 4, 'maxbytes': 0, 'showreports': 0, 'visible': 1, 'hiddensections': 0, 'groupmode': 1, 'groupmodeforce': 0, 'defaultgroupingid': 0, 'timecreated': 1702124210, 'timemodified': 1717174611, 'enablecompletion': 1, 'completionnotify': 0, 'lang': '', 'forcetheme': '', 'courseformatoptions': [
+            {'name': 'hiddensections', 'value': 0
+            },
+            {'name': 'coursedisplay', 'value': 1
+            }
+        ], 'showactivitydates': True, 'showcompletionconditions': True
+    },
+    {'id': 335, 'shortname': 'edsex-invitados', 'categoryid': 30, 'categorysortorder': 230004, 'fullname': 'Educación Afectivo Sexual - Invitados', 'displayname': 'Educación Afectivo Sexual - Invitados', 'idnumber': '', 'summary': '<p dir="ltr" style="text-align:center;"><em>Contexto social y cultural y actuación educativa</em></p>', 'summaryformat': 1, 'format': 'topics', 'showgrades': 1, 'newsitems': 5, 'startdate': 1704063600, 'enddate': 1725055200, 'numsections': 5, 'maxbytes': 0, 'showreports': 0, 'visible': 1, 'hiddensections': 0, 'groupmode': 1, 'groupmodeforce': 1, 'defaultgroupingid': 0, 'timecreated': 1642183350, 'timemodified': 1715531122, 'enablecompletion': 1, 'completionnotify': 0, 'lang': '', 'forcetheme': '', 'courseformatoptions': [
+            {'name': 'hiddensections', 'value': 0
+            },
+            {'name': 'coursedisplay', 'value': 0
+            }
+        ], 'showactivitydates': False, 'showcompletionconditions': True
+    },
+    {'id': 336, 'shortname': 'sx-custodios-muestra', 'categoryid': 3, 'categorysortorder': 140003, 'fullname': 'Custodios del Corazón - Curso de educación afectivo-sexual para padres (muestra)', 'displayname': 'Custodios del Corazón - Curso de educación afectivo-sexual para padres (muestra)', 'idnumber': '', 'summary': '', 'summaryformat': 1, 'format': 'topics', 'showgrades': 1, 'newsitems': 5, 'startdate': 1703286000, 'enddate': 1734822000, 'numsections': 2, 'maxbytes': 0, 'showreports': 0, 'visible': 1, 'hiddensections': 0, 'groupmode': 0, 'groupmodeforce': 0, 'defaultgroupingid': 0, 'timecreated': 1703258652, 'timemodified': 1703259255, 'enablecompletion': 1, 'completionnotify': 0, 'lang': '', 'forcetheme': '', 'courseformatoptions': [
+            {'name': 'hiddensections', 'value': 0
+            },
+            {'name': 'coursedisplay', 'value': 0
+            }
+        ], 'showactivitydates': True, 'showcompletionconditions': True
+    },
+    {'id': 337, 'shortname': 'cf-prototipo', 'categoryid': 28, 'categorysortorder': 10003, 'fullname': 'Catequesis de Iniciación Cristiana en familia - aula virtual prototipo', 'displayname': 'Catequesis de Iniciación Cristiana en familia - aula virtual prototipo', 'idnumber': '', 'summary': '<p dir="ltr" style="text-align:center;"><small>Aula de muestra</small></p>', 'summaryformat': 1, 'format': 'topics', 'showgrades': 1, 'newsitems': 5, 'startdate': 1706742000, 'enddate': 0, 'numsections': 11, 'maxbytes': 0, 'showreports': 0, 'visible': 1, 'hiddensections': 1, 'groupmode': 0, 'groupmodeforce': 0, 'defaultgroupingid': 0, 'timecreated': 1658145381, 'timemodified': 1706739857, 'enablecompletion': 1, 'completionnotify': 0, 'lang': '', 'forcetheme': '', 'courseformatoptions': [
+            {'name': 'hiddensections', 'value': 1
+            },
+            {'name': 'coursedisplay', 'value': 1
+            }
+        ], 'showactivitydates': False, 'showcompletionconditions': True
+    },
+    {'id': 338, 'shortname': 'aldebaran', 'categoryid': 18, 'categorysortorder': 90001, 'fullname': 'Catequesis familiar - Aldebarán', 'displayname': 'Catequesis familiar - Aldebarán', 'idnumber': '', 'summary': '<p dir="ltr" style="text-align:center;"><small>Centro Escolar Aldebarán</small></p>', 'summaryformat': 1, 'format': 'topics', 'showgrades': 1, 'newsitems': 5, 'startdate': 1707433200, 'enddate': 1735746180, 'numsections': 11, 'maxbytes': 0, 'showreports': 0, 'visible': 1, 'hiddensections': 1, 'groupmode': 0, 'groupmodeforce': 0, 'defaultgroupingid': 0, 'timecreated': 1658145381, 'timemodified': 1707407621, 'enablecompletion': 1, 'completionnotify': 0, 'lang': '', 'forcetheme': '', 'courseformatoptions': [
+            {'name': 'hiddensections', 'value': 1
+            },
+            {'name': 'coursedisplay', 'value': 1
+            }
+        ], 'showactivitydates': False, 'showcompletionconditions': True
+    },
+    {'id': 339, 'shortname': 'custodios', 'categoryid': 23, 'categorysortorder': 190004, 'fullname': 'Custodios del corazón', 'displayname': 'Custodios del corazón', 'idnumber': '', 'summary': '<p dir="ltr" style="text-align:center;"><em>Contexto social y cultural y actuación educativa</em></p>', 'summaryformat': 1, 'format': 'topics', 'showgrades': 1, 'newsitems': 5, 'startdate': 1707346800, 'enddate': 1712440740, 'numsections': 4, 'maxbytes': 0, 'showreports': 0, 'visible': 1, 'hiddensections': 0, 'groupmode': 1, 'groupmodeforce': 1, 'defaultgroupingid': 0, 'timecreated': 1642183350, 'timemodified': 1712217900, 'enablecompletion': 1, 'completionnotify': 0, 'lang': '', 'forcetheme': '', 'courseformatoptions': [
+            {'name': 'hiddensections', 'value': 0
+            },
+            {'name': 'coursedisplay', 'value': 0
+            }
+        ], 'showactivitydates': False, 'showcompletionconditions': True
+    },
+    {'id': 340, 'shortname': 'habsex', 'categoryid': 23, 'categorysortorder': 190003, 'fullname': '¿Hablas de sexo con tus hijos?', 'displayname': '¿Hablas de sexo con tus hijos?', 'idnumber': '', 'summary': '<p dir="ltr" style="text-align:center;"><em>Edades | Internet | Familia</em></p>', 'summaryformat': 1, 'format': 'topics', 'showgrades': 1, 'newsitems': 5, 'startdate': 1715716800, 'enddate': 1719784740, 'numsections': 4, 'maxbytes': 0, 'showreports': 0, 'visible': 1, 'hiddensections': 0, 'groupmode': 1, 'groupmodeforce': 1, 'defaultgroupingid': 0, 'timecreated': 1642183350, 'timemodified': 1715756368, 'enablecompletion': 1, 'completionnotify': 0, 'lang': '', 'forcetheme': '', 'courseformatoptions': [
+            {'name': 'hiddensections', 'value': 0
+            },
+            {'name': 'coursedisplay', 'value': 0
+            }
+        ], 'showactivitydates': False, 'showcompletionconditions': True
+    },
+    {'id': 341, 'shortname': 'cf-fff-2402', 'categoryid': 23, 'categorysortorder': 190002, 'fullname': 'Catequesis Familiar para Padres', 'displayname': 'Catequesis Familiar para Padres', 'idnumber': '', 'summary': '<p dir="ltr" style="text-align:center;"><small>Aula de muestra</small></p>', 'summaryformat': 1, 'format': 'topics', 'showgrades': 1, 'newsitems': 5, 'startdate': 1707778800, 'enddate': 1715810340, 'numsections': 11, 'maxbytes': 0, 'showreports': 0, 'visible': 1, 'hiddensections': 1, 'groupmode': 0, 'groupmodeforce': 0, 'defaultgroupingid': 0, 'timecreated': 1658145381, 'timemodified': 1706739857, 'enablecompletion': 1, 'completionnotify': 0, 'lang': '', 'forcetheme': '', 'courseformatoptions': [
+            {'name': 'hiddensections', 'value': 1
+            },
+            {'name': 'coursedisplay', 'value': 1
+            }
+        ], 'showactivitydates': False, 'showcompletionconditions': True
+    },
+    {'id': 342, 'shortname': 'cf-fff', 'categoryid': 23, 'categorysortorder': 190001, 'fullname': 'Catequesis Familiar para padres - Trimestre 2', 'displayname': 'Catequesis Familiar para padres - Trimestre 2', 'idnumber': '', 'summary': '<p dir="ltr" style="text-align:center;"><small>Aula virtual</small></p>', 'summaryformat': 1, 'format': 'topics', 'showgrades': 1, 'newsitems': 5, 'startdate': 1707519600, 'enddate': 1715856120, 'numsections': 11, 'maxbytes': 0, 'showreports': 0, 'visible': 1, 'hiddensections': 1, 'groupmode': 0, 'groupmodeforce': 0, 'defaultgroupingid': 0, 'timecreated': 1658145381, 'timemodified': 1707820693, 'enablecompletion': 1, 'completionnotify': 0, 'lang': '', 'forcetheme': '', 'courseformatoptions': [
+            {'name': 'hiddensections', 'value': 1
+            },
+            {'name': 'coursedisplay', 'value': 1
+            }
+        ], 'showactivitydates': False, 'showcompletionconditions': True
+    },
+    {'id': 343, 'shortname': 'sfc-2', 'categoryid': 23, 'categorysortorder': 190006, 'fullname': 'Síntesis de la fe católica (2)', 'displayname': 'Síntesis de la fe católica (2)', 'idnumber': '', 'summary': '<p dir="ltr" style="text-align:center;">Parte II (de II)</p>', 'summaryformat': 1, 'format': 'topics', 'showgrades': 1, 'newsitems': 5, 'startdate': 1709938800, 'enddate': 1735641000, 'numsections': 3, 'maxbytes': 0, 'showreports': 0, 'visible': 1, 'hiddensections': 0, 'groupmode': 1, 'groupmodeforce': 0, 'defaultgroupingid': 0, 'timecreated': 1702124210, 'timemodified': 1717174685, 'enablecompletion': 1, 'completionnotify': 0, 'lang': '', 'forcetheme': '', 'courseformatoptions': [
+            {'name': 'hiddensections', 'value': 0
+            },
+            {'name': 'coursedisplay', 'value': 1
+            }
+        ], 'showactivitydates': True, 'showcompletionconditions': True
+    },
+    {'id': 344, 'shortname': 'sanjose-A', 'categoryid': 5, 'categorysortorder': 160005, 'fullname': 'Escuela Parroquial San José Sección “A” (2024)', 'displayname': 'Escuela Parroquial San José Sección “A” (2024)', 'idnumber': '', 'summary': '<p dir="ltr" style="text-align:center;"><small>Aula de muestra</small></p>', 'summaryformat': 1, 'format': 'topics', 'showgrades': 1, 'newsitems': 5, 'startdate': 1709938800, 'enddate': 1735647420, 'numsections': 11, 'maxbytes': 0, 'showreports': 0, 'visible': 1, 'hiddensections': 1, 'groupmode': 0, 'groupmodeforce': 0, 'defaultgroupingid': 0, 'timecreated': 1658145381, 'timemodified': 1710061792, 'enablecompletion': 1, 'completionnotify': 0, 'lang': '', 'forcetheme': '', 'courseformatoptions': [
+            {'name': 'hiddensections', 'value': 1
+            },
+            {'name': 'coursedisplay', 'value': 1
+            }
+        ], 'showactivitydates': False, 'showcompletionconditions': True
+    },
+    {'id': 345, 'shortname': 'sanjose-B', 'categoryid': 5, 'categorysortorder': 160004, 'fullname': 'Escuela Parroquial San José Sección “B” (2024)', 'displayname': 'Escuela Parroquial San José Sección “B” (2024)', 'idnumber': '', 'summary': '<p dir="ltr" style="text-align:center;"><small>Aula de muestra</small></p>', 'summaryformat': 1, 'format': 'topics', 'showgrades': 1, 'newsitems': 5, 'startdate': 1709938800, 'enddate': 1735648680, 'numsections': 11, 'maxbytes': 0, 'showreports': 0, 'visible': 1, 'hiddensections': 1, 'groupmode': 0, 'groupmodeforce': 0, 'defaultgroupingid': 0, 'timecreated': 1658145381, 'timemodified': 1710061778, 'enablecompletion': 1, 'completionnotify': 0, 'lang': '', 'forcetheme': '', 'courseformatoptions': [
+            {'name': 'hiddensections', 'value': 1
+            },
+            {'name': 'coursedisplay', 'value': 1
+            }
+        ], 'showactivitydates': False, 'showcompletionconditions': True
+    },
+    {'id': 346, 'shortname': 'rosario-B', 'categoryid': 5, 'categorysortorder': 160003, 'fullname': 'Nuestra Señora del Rosario - Sección “B” (2024)', 'displayname': 'Nuestra Señora del Rosario - Sección “B” (2024)', 'idnumber': '', 'summary': '<p dir="ltr" style="text-align:center;"><small>Aula de muestra</small></p>', 'summaryformat': 1, 'format': 'topics', 'showgrades': 1, 'newsitems': 5, 'startdate': 1709938800, 'enddate': 1735649820, 'numsections': 11, 'maxbytes': 0, 'showreports': 0, 'visible': 1, 'hiddensections': 1, 'groupmode': 0, 'groupmodeforce': 0, 'defaultgroupingid': 0, 'timecreated': 1658145381, 'timemodified': 1710061760, 'enablecompletion': 1, 'completionnotify': 0, 'lang': '', 'forcetheme': '', 'courseformatoptions': [
+            {'name': 'hiddensections', 'value': 1
+            },
+            {'name': 'coursedisplay', 'value': 1
+            }
+        ], 'showactivitydates': False, 'showcompletionconditions': True
+    },
+    {'id': 347, 'shortname': 'rosario-A', 'categoryid': 5, 'categorysortorder': 160002, 'fullname': 'Nuestra Señora del Rosario - Sección “A” (2024) ', 'displayname': 'Nuestra Señora del Rosario - Sección “A” (2024) ', 'idnumber': '', 'summary': '<p dir="ltr" style="text-align:center;"><small>Aula de muestra</small></p>', 'summaryformat': 1, 'format': 'topics', 'showgrades': 1, 'newsitems': 5, 'startdate': 1709938800, 'enddate': 1735650720, 'numsections': 11, 'maxbytes': 0, 'showreports': 0, 'visible': 1, 'hiddensections': 1, 'groupmode': 0, 'groupmodeforce': 0, 'defaultgroupingid': 0, 'timecreated': 1658145381, 'timemodified': 1710061718, 'enablecompletion': 1, 'completionnotify': 0, 'lang': '', 'forcetheme': '', 'courseformatoptions': [
+            {'name': 'hiddensections', 'value': 1
+            },
+            {'name': 'coursedisplay', 'value': 1
+            }
+        ], 'showactivitydates': False, 'showcompletionconditions': True
+    },
+    {'id': 348, 'shortname': 'humtec', 'categoryid': 13, 'categorysortorder': 110002, 'fullname': 'Catequesis Familiar - Aula de Humtec', 'displayname': 'Catequesis Familiar - Aula de Humtec', 'idnumber': '', 'summary': '<p dir="ltr" style="text-align:center;"><br /></p>', 'summaryformat': 1, 'format': 'topics', 'showgrades': 1, 'newsitems': 5, 'startdate': 1710802800, 'enddate': 1735685940, 'numsections': 11, 'maxbytes': 0, 'showreports': 0, 'visible': 1, 'hiddensections': 1, 'groupmode': 0, 'groupmodeforce': 0, 'defaultgroupingid': 0, 'timecreated': 1658145381, 'timemodified': 1710840831, 'enablecompletion': 1, 'completionnotify': 0, 'lang': '', 'forcetheme': '', 'courseformatoptions': [
+            {'name': 'hiddensections', 'value': 1
+            },
+            {'name': 'coursedisplay', 'value': 1
+            }
+        ], 'showactivitydates': False, 'showcompletionconditions': True
+    },
+    {'id': 349, 'shortname': 'alamos-2024', 'categoryid': 13, 'categorysortorder': 110001, 'fullname': 'Catequesis Familiar - Los Álamos 2024', 'displayname': 'Catequesis Familiar - Los Álamos 2024', 'idnumber': '', 'summary': '', 'summaryformat': 1, 'format': 'topics', 'showgrades': 1, 'newsitems': 5, 'startdate': 1710889200, 'enddate': 1767220500, 'numsections': 11, 'maxbytes': 0, 'showreports': 0, 'visible': 1, 'hiddensections': 1, 'groupmode': 0, 'groupmodeforce': 0, 'defaultgroupingid': 0, 'timecreated': 1658145381, 'timemodified': 1712765245, 'enablecompletion': 1, 'completionnotify': 0, 'lang': '', 'forcetheme': '', 'courseformatoptions': [
+            {'name': 'hiddensections', 'value': 1
+            },
+            {'name': 'coursedisplay', 'value': 1
+            }
+        ], 'showactivitydates': False, 'showcompletionconditions': True
+    },
+    {'id': 351, 'shortname': 'srl', 'categoryid': 4, 'categorysortorder': 30002, 'fullname': 'Santa Rosa de Lima - Arequipa (2024)', 'displayname': 'Santa Rosa de Lima - Arequipa (2024)', 'idnumber': '', 'summary': '<p dir="ltr" style="text-align:center;"><br /></p>', 'summaryformat': 1, 'format': 'topics', 'showgrades': 1, 'newsitems': 5, 'startdate': 1712527200, 'enddate': 1735668900, 'numsections': 11, 'maxbytes': 0, 'showreports': 0, 'visible': 1, 'hiddensections': 1, 'groupmode': 0, 'groupmodeforce': 0, 'defaultgroupingid': 0, 'timecreated': 1658145381, 'timemodified': 1712647097, 'enablecompletion': 1, 'completionnotify': 0, 'lang': '', 'forcetheme': '', 'courseformatoptions': [
+            {'name': 'hiddensections', 'value': 1
+            },
+            {'name': 'coursedisplay', 'value': 1
+            }
+        ], 'showactivitydates': False, 'showcompletionconditions': True
+    },
+    {'id': 352, 'shortname': 'seminariomenor', 'categoryid': 5, 'categorysortorder': 160001, 'fullname': 'Seminario Menor (2024)', 'displayname': 'Seminario Menor (2024)', 'idnumber': '', 'summary': '<p dir="ltr" style="text-align:center;"><small>Aula de muestra</small></p>', 'summaryformat': 1, 'format': 'topics', 'showgrades': 1, 'newsitems': 5, 'startdate': 1713823200, 'enddate': 1735685940, 'numsections': 11, 'maxbytes': 0, 'showreports': 0, 'visible': 1, 'hiddensections': 1, 'groupmode': 0, 'groupmodeforce': 0, 'defaultgroupingid': 0, 'timecreated': 1658145381, 'timemodified': 1706739857, 'enablecompletion': 1, 'completionnotify': 0, 'lang': '', 'forcetheme': '', 'courseformatoptions': [
+            {'name': 'hiddensections', 'value': 1
+            },
+            {'name': 'coursedisplay', 'value': 1
+            }
+        ], 'showactivitydates': False, 'showcompletionconditions': True
+    },
+    {'id': 353, 'shortname': 'edem', 'categoryid': 28, 'categorysortorder': 10002, 'fullname': 'Educación emocional', 'displayname': 'Educación emocional', 'idnumber': '', 'summary': '<p dir="ltr" style="text-align:center;"><em>Universo emocional y educación de las emociones</em></p>', 'summaryformat': 1, 'format': 'topics', 'showgrades': 1, 'newsitems': 5, 'startdate': 1717822800, 'enddate': 1721106000, 'numsections': 5, 'maxbytes': 0, 'showreports': 0, 'visible': 1, 'hiddensections': 0, 'groupmode': 1, 'groupmodeforce': 1, 'defaultgroupingid': 0, 'timecreated': 1642183350, 'timemodified': 1717586327, 'enablecompletion': 1, 'completionnotify': 0, 'lang': '', 'forcetheme': '', 'courseformatoptions': [
+            {'name': 'hiddensections', 'value': 0
+            },
+            {'name': 'coursedisplay', 'value': 1
+            }
+        ], 'showactivitydates': False, 'showcompletionconditions': True
+    },
+    {'id': 354, 'shortname': 'edem-muestra', 'categoryid': 3, 'categorysortorder': 140002, 'fullname': 'Educación emocional (muestra)', 'displayname': 'Educación emocional (muestra)', 'idnumber': '', 'summary': '<p dir="ltr" style="text-align:center;"><em>Curso de muestra</em></p>', 'summaryformat': 1, 'format': 'topics', 'showgrades': 1, 'newsitems': 5, 'startdate': 1713996000, 'enddate': 0, 'numsections': 2, 'maxbytes': 0, 'showreports': 0, 'visible': 1, 'hiddensections': 0, 'groupmode': 0, 'groupmodeforce': 0, 'defaultgroupingid': 0, 'timecreated': 1670850554, 'timemodified': 1714059131, 'enablecompletion': 1, 'completionnotify': 0, 'lang': '', 'forcetheme': '', 'courseformatoptions': [
+            {'name': 'hiddensections', 'value': 0
+            },
+            {'name': 'coursedisplay', 'value': 0
+            }
+        ], 'showactivitydates': False, 'showcompletionconditions': True
+    },
+    {'id': 355, 'shortname': 'corazonmaria', 'categoryid': 4, 'categorysortorder': 30001, 'fullname': 'Corazón de María - Arequipa (2024)', 'displayname': 'Corazón de María - Arequipa (2024)', 'idnumber': '', 'summary': '<p dir="ltr" style="text-align:center;"><small>Aula de muestra</small></p>', 'summaryformat': 1, 'format': 'topics', 'showgrades': 1, 'newsitems': 5, 'startdate': 1713996000, 'enddate': 1735685940, 'numsections': 11, 'maxbytes': 0, 'showreports': 0, 'visible': 1, 'hiddensections': 1, 'groupmode': 0, 'groupmodeforce': 0, 'defaultgroupingid': 0, 'timecreated': 1658145381, 'timemodified': 1714047120, 'enablecompletion': 1, 'completionnotify': 0, 'lang': '', 'forcetheme': '', 'courseformatoptions': [
+            {'name': 'hiddensections', 'value': 1
+            },
+            {'name': 'coursedisplay', 'value': 1
+            }
+        ], 'showactivitydates': False, 'showcompletionconditions': True
+    },
+    {'id': 356, 'shortname': 'moral-sem', 'categoryid': 3, 'categorysortorder': 140001, 'fullname': 'Moral fundamental (seminarios)', 'displayname': 'Moral fundamental (seminarios)', 'idnumber': '', 'summary': '<p dir="ltr" style="text-align:center;"><em>La peregrinación de la Gracia</em></p>', 'summaryformat': 1, 'format': 'topics', 'showgrades': 1, 'newsitems': 5, 'startdate': 1715119200, 'enddate': 1727689140, 'numsections': 6, 'maxbytes': 0, 'showreports': 0, 'visible': 1, 'hiddensections': 0, 'groupmode': 1, 'groupmodeforce': 0, 'defaultgroupingid': 0, 'timecreated': 1701428318, 'timemodified': 1716896054, 'enablecompletion': 1, 'completionnotify': 0, 'lang': '', 'forcetheme': '', 'courseformatoptions': [
+            {'name': 'hiddensections', 'value': 0
+            },
+            {'name': 'coursedisplay', 'value': 1
+            }
+        ], 'showactivitydates': True, 'showcompletionconditions': True
+    },
+    {'id': 357, 'shortname': 'edemoc-invitados', 'categoryid': 30, 'categorysortorder': 230003, 'fullname': 'Educación emocional - Invitados', 'displayname': 'Educación emocional - Invitados', 'idnumber': '', 'summary': '<p dir="ltr" style="text-align:center;"><em>Universo emocional y educación de las emociones</em></p>', 'summaryformat': 1, 'format': 'topics', 'showgrades': 1, 'newsitems': 5, 'startdate': 1715464800, 'enddate': 1735685940, 'numsections': 4, 'maxbytes': 0, 'showreports': 0, 'visible': 1, 'hiddensections': 0, 'groupmode': 1, 'groupmodeforce': 1, 'defaultgroupingid': 0, 'timecreated': 1642183350, 'timemodified': 1715531093, 'enablecompletion': 1, 'completionnotify': 0, 'lang': '', 'forcetheme': '', 'courseformatoptions': [
+            {'name': 'hiddensections', 'value': 0
+            },
+            {'name': 'coursedisplay', 'value': 0
+            }
+        ], 'showactivitydates': False, 'showcompletionconditions': True
+    },
+    {'id': 358, 'shortname': 'moral-invitados', 'categoryid': 30, 'categorysortorder': 230002, 'fullname': 'Moral fundamental - Invitados', 'displayname': 'Moral fundamental - Invitados', 'idnumber': '', 'summary': '<p dir="ltr" style="text-align:center;"><em>La peregrinación de la Gracia</em></p>', 'summaryformat': 1, 'format': 'topics', 'showgrades': 1, 'newsitems': 5, 'startdate': 1715464800, 'enddate': 1735665960, 'numsections': 5, 'maxbytes': 0, 'showreports': 0, 'visible': 1, 'hiddensections': 0, 'groupmode': 0, 'groupmodeforce': 0, 'defaultgroupingid': 0, 'timecreated': 1701428318, 'timemodified': 1712342472, 'enablecompletion': 1, 'completionnotify': 0, 'lang': '', 'forcetheme': '', 'courseformatoptions': [
+            {'name': 'hiddensections', 'value': 0
+            },
+            {'name': 'coursedisplay', 'value': 0
+            }
+        ], 'showactivitydates': True, 'showcompletionconditions': True
+    },
+    {'id': 359, 'shortname': 'h5p-prueba', 'categoryid': 32, 'categorysortorder': 240001, 'fullname': 'H5P pruebas', 'displayname': 'H5P pruebas', 'idnumber': '', 'summary': '', 'summaryformat': 1, 'format': 'topics', 'showgrades': 1, 'newsitems': 5, 'startdate': 1718488800, 'enddate': 1750024800, 'numsections': 5, 'maxbytes': 0, 'showreports': 0, 'visible': 1, 'hiddensections': 0, 'groupmode': 0, 'groupmodeforce': 0, 'defaultgroupingid': 0, 'timecreated': 1718463622, 'timemodified': 1718463622, 'enablecompletion': 1, 'completionnotify': 0, 'lang': '', 'forcetheme': '', 'courseformatoptions': [
+            {'name': 'hiddensections', 'value': 0
+            },
+            {'name': 'coursedisplay', 'value': 0
+            }
+        ], 'showactivitydates': True, 'showcompletionconditions': True
+    },
+    {'id': 360, 'shortname': 'testiacol', 'categoryid': 30, 'categorysortorder': 230001, 'fullname': 'test IA Col', 'displayname': 'test IA Col', 'idnumber': '', 'summary': '<p dir="ltr" style="text-align:left;">Prueba IA Colombia</p>', 'summaryformat': 1, 'format': 'topics', 'showgrades': 1, 'newsitems': 5, 'startdate': 1718488800, 'enddate': 1764025200, 'numsections': 2, 'maxbytes': 0, 'showreports': 0, 'visible': 1, 'hiddensections': 0, 'groupmode': 0, 'groupmodeforce': 0, 'defaultgroupingid': 0, 'timecreated': 1719246968, 'timemodified': 1719248037, 'enablecompletion': 1, 'completionnotify': 0, 'lang': '', 'forcetheme': '', 'courseformatoptions': [
+            {'name': 'hiddensections', 'value': 0
+            },
+            {'name': 'coursedisplay', 'value': 0
+            }
+        ], 'showactivitydates': True, 'showcompletionconditions': True
+    },
+    {'id': 361, 'shortname': 'tf', 'categoryid': 28, 'categorysortorder': 10001, 'fullname': 'Teología fundamental', 'displayname': 'Teología fundamental', 'idnumber': '', 'summary': '<p dir="ltr" style="text-align:center;"><em>Universo emocional y educación de las emociones</em></p>', 'summaryformat': 1, 'format': 'topics', 'showgrades': 1, 'newsitems': 5, 'startdate': 1719612000, 'enddate': 0, 'numsections': 5, 'maxbytes': 0, 'showreports': 0, 'visible': 1, 'hiddensections': 0, 'groupmode': 1, 'groupmodeforce': 1, 'defaultgroupingid': 0, 'timecreated': 1642183350, 'timemodified': 1717586327, 'enablecompletion': 1, 'completionnotify': 0, 'lang': '', 'forcetheme': '', 'courseformatoptions': [
+            {'name': 'hiddensections', 'value': 0
+            },
+            {'name': 'coursedisplay', 'value': 1
+            }
+        ], 'showactivitydates': False, 'showcompletionconditions': True
+    }
+]
