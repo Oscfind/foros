@@ -134,7 +134,7 @@ class MoodleWorkflow:
         Returns:
             dict: La respuesta de la API de Moodle.
         """
-
+        url = os.getenv('URL_BECAT')
         os.getenv('URL_BECAT')
         params = {
             'wstoken': os.getenv('WS_TOKEN'),
