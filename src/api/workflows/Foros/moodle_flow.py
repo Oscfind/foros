@@ -1,5 +1,7 @@
 import requests
 from IPython.core.display import HTML
+from dotenv import load_dotenv
+import os
 
 class MoodleWorkflow:
 
@@ -7,9 +9,9 @@ class MoodleWorkflow:
         """
         Esta función toma la url de Moodle y el token, también toma los cursos (en caso de que hayan otros cursos que no correspondan)
         """
-        url = 'https://aula.becat.online/webservice/rest/server.php'
+        url = os.getenv('URL_BECAT')
         params = {
-            'wstoken': 'f210b48f757dd01ff29b15965f984190',
+            'wstoken': os.getenv('WS_TOKEN'),
             'wsfunction': 'core_course_get_courses',
             'moodlewsrestformat': 'json'
         }
@@ -30,9 +32,9 @@ class MoodleWorkflow:
         """
         Esta función toma los foros por cada curso.
         """
-        url = 'https://aula.becat.online/webservice/rest/server.php'
+        url = os.getenv('URL_BECAT')
         params = {
-            'wstoken': 'f210b48f757dd01ff29b15965f984190',
+            'wstoken': os.getenv('WS_TOKEN'),
             'wsfunction': 'mod_forum_get_forums_by_courses',
             'moodlewsrestformat': 'json',
             'courseids[0]': course_id
@@ -50,9 +52,9 @@ class MoodleWorkflow:
         """
         Esta función toma las discusiones por curso.
         """
-        url = 'https://aula.becat.online/webservice/rest/server.php'
+        url = os.getenv('URL_BECAT')
         params = {
-            'wstoken': 'f210b48f757dd01ff29b15965f984190',
+            'wstoken': os.getenv('WS_TOKEN'),
             'wsfunction': 'mod_forum_get_forum_discussions',
             'moodlewsrestformat': 'json',
             'forumid': forum_id
@@ -70,9 +72,9 @@ class MoodleWorkflow:
         """
         Esta función toma los posts por discusión.
         """
-        url = 'https://aula.becat.online/webservice/rest/server.php'
+        url = os.getenv('URL_BECAT')
         params = {
-            'wstoken': 'f210b48f757dd01ff29b15965f984190',
+            'wstoken': os.getenv('WS_TOKEN'),
             'wsfunction': 'mod_forum_get_discussion_posts',
             'moodlewsrestformat': 'json',
             'discussionid': discussion_id
@@ -90,7 +92,7 @@ class MoodleWorkflow:
         """
         Esta función se encarga de diseñar el formato de la retroalimentación para cada usuario, y luego subirlo a Moodle.
         """
-        url = 'https://aula.becat.online/webservice/rest/server.php'
+        url = os.getenv('URL_BECAT')
         
         for course_name, discussions in feedback_by_course_discussion.items():
             for discussion_id, feedback_list in discussions.items():
@@ -102,7 +104,7 @@ class MoodleWorkflow:
 
 
                 data = {
-                    'wstoken': 'f210b48f757dd01ff29b15965f984190',
+                    'wstoken': os.getenv('WS_TOKEN'),
                     'wsfunction': 'mod_forum_add_discussion_post',
                     'moodlewsrestformat': 'json',
                     'postid': discussion_id,
@@ -132,23 +134,10 @@ class MoodleWorkflow:
         Returns:
             dict: La respuesta de la API de Moodle.
         """
-        # url = 'https://aula.becat.online/webservice/rest/server.php'
-        # params = {
-        #     'wstoken': 'f210b48f757dd01ff29b15965f984190',
-        #     'wsfunction': 'core_rating_add_rating',
-        #     'moodlewsrestformat': 'json',
-        #     'rating[contextid]': contextid,
-        #     'rating[component]': 'mod_forum',
-        #     'rating[ratingarea]': 'post',
-        #     'rating[itemid]': itemid,
-        #     'rating[scaleid]': 10,  # Escala
-        #     'rating[rating]': rating,
-        #     'rating[rateduserid]': rateduserid,
-        # }
 
-        url = 'https://aula.becat.online/webservice/rest/server.php'
+        os.getenv('URL_BECAT')
         params = {
-            'wstoken': 'f210b48f757dd01ff29b15965f984190',
+            'wstoken': os.getenv('WS_TOKEN'),
             'wsfunction': 'core_rating_add_rating',
             'moodlewsrestformat': 'json',
             'contextid': contextid,
