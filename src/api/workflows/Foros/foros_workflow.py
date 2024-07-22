@@ -1,5 +1,6 @@
 # # último código funcional (con moodle)
 import requests
+from IPython.display import display
 from IPython.core.display import HTML
 from src.api.common.services.openai_service import OpenAIService
 from src.api.common.services.prompt_service import PromptService
@@ -22,7 +23,7 @@ class ForosWorkflow:
         """
         self._openai_service = GptContent(openai_service, prompt_service)
 
-    def ejecutar_modelo(self, contexto, preguntas, lista_respuestas, contexto_pdf_api):
+    def ejecutar_modelo(self, contexto, preguntas, lista_respuestas, contexto_pdf_vectorizado):
         """
         Esta función toma la lista de los posts de los estudiantes, los filtra para obtener solo los mensajes de los posts.
         También ejecuta el modelo según la pregunta, el diccionario que tiene cada usuario con su post y el texto (contexto vectorizado).
@@ -32,7 +33,7 @@ class ForosWorkflow:
             'Contexto': contexto,
             'Pregunta': preguntas,
             'Usuario_respuesta': f"{lista_respuestas['author']['fullname']}: {lista_respuestas['message']}",
-            'Texto': contexto_pdf_api,
+            'Texto': contexto_pdf_vectorizado,
             }
             response = self._openai_service.get_foros_content(str(request))
             return response
@@ -45,7 +46,7 @@ class ForosWorkflow:
                 'Contexto': contexto,
                 'Pregunta': preguntas,
                 'Usuarios_respuestas': posts,
-                'Texto': contexto_pdf_api,
+                'Texto': contexto_pdf_vectorizado,
             }
             response = self._openai_service.get_foros_content(str(request))
             return response
