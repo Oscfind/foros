@@ -23,7 +23,7 @@ class ForosWorkflow:
         """
         self._openai_service = GptContent(openai_service, prompt_service)
 
-    def ejecutar_modelo(self, contexto, preguntas, lista_respuestas, contexto_pdf_vectorizado):
+    def ejecutar_modelo(self, contexto, preguntas, lista_respuestas):
         """
         Esta función toma la lista de los posts de los estudiantes, los filtra para obtener solo los mensajes de los posts.
         También ejecuta el modelo según la pregunta, el diccionario que tiene cada usuario con su post y el texto (contexto vectorizado).
@@ -33,7 +33,7 @@ class ForosWorkflow:
             'Contexto': contexto,
             'Pregunta': preguntas,
             'Usuario_respuesta': f"{lista_respuestas['author']['fullname']}: {lista_respuestas['message']}",
-            'Texto': contexto_pdf_vectorizado,
+            # 'Texto': contexto_pdf_vectorizado,
             }
             response = self._openai_service.get_foros_content(str(request))
             return response
@@ -46,7 +46,7 @@ class ForosWorkflow:
                 'Contexto': contexto,
                 'Pregunta': preguntas,
                 'Usuarios_respuestas': posts,
-                'Texto': contexto_pdf_vectorizado,
+                # 'Texto': contexto_pdf_vectorizado,
             }
             response = self._openai_service.get_foros_content(str(request))
             return response
@@ -143,11 +143,11 @@ class ForosWorkflow:
                             # display(contexto)
 
                             if contador == 1:
-                                feedback_message = self.ejecutar_modelo(caso, preguntas_unificadas_tarea, posts[0], contexto)
+                                feedback_message = self.ejecutar_modelo(caso, preguntas_unificadas_tarea, posts[0])
                             elif contador == 2:
-                                feedback_message = self.ejecutar_modelo(caso, preguntas_unificadas_tarea, posts[:2], contexto)
+                                feedback_message = self.ejecutar_modelo(caso, preguntas_unificadas_tarea, posts[:2])
                             else:
-                                feedback_message = self.ejecutar_modelo(caso, preguntas_unificadas_tarea, posts[:contador], contexto)
+                                feedback_message = self.ejecutar_modelo(caso, preguntas_unificadas_tarea, posts[:contador])
                             
                             usuario_list = list(feedback_message.keys())
                             html_list = list(feedback_message.values())
