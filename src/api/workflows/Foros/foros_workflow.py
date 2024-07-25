@@ -115,16 +115,13 @@ class ForosWorkflow:
 
                 for forum in lista_foro_1:
                     discussions = MoodleWorkflow.get_discussions_by_forum(forum['id'])
-                    # display(discussions)
+                
                     
                     for discussion in discussions:
                         posts = MoodleWorkflow.get_posts_by_discussion(discussion['discussion'])
-                        # display(posts)
                         # posts_sin_pregunta_inicial = posts[:len(posts)-1]
                         # display(posts_sin_pregunta_inicial)
 
-
-                        
                         if posts[0]["subject"] == "Re: Retroalimentaciones":
                             break
                         else:
@@ -177,11 +174,9 @@ class ForosWorkflow:
 
                                 # # función para calificar el post
                                 # MoodleWorkflow.calificar_post(contextid, itemid, rateduserid, rating)
+                    # display(posts)      
+                # display(discussions)
                             
-
-                            
-
-
             # se ordenan las retroalimentaciones de los usuarios
             for course in feedback_by_course_discussion:
                 for discussion in feedback_by_course_discussion[course]:

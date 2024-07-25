@@ -4,6 +4,7 @@ from dotenv import load_dotenv
 import os
 
 class MoodleWorkflow:
+    
 
     def get_courses():
         """
@@ -100,7 +101,12 @@ class MoodleWorkflow:
                 puntos = ": "
                 for feedback in feedback_list:
                     # feedback_messages += f"🤖 <strong>{feedback['usuario'].split('_')[0]}{puntos}</strong><span style='background-color: #AEC6CF'>{feedback['html']}</span><br><br> {feedback['calificacion']}"
-                    feedback_messages += f"🤖 <strong>{feedback['usuario'].split('_')[0]}{puntos}</strong><span style='background-color: #AEC6CF; display: inline;'>{feedback['html']}</span><span style='display: inline;'><strong>Calificación sugerida:</strong> {feedback['calificacion'].split(': ')[1]}</span><br><br>"
+                    # feedback_messages += f"🤖 <strong>{feedback['usuario'].split('_')[0]}{puntos}</strong><span style='background-color: #AEC6CF; display: inline;'>{feedback['html']}</span><span style='display: inline;'><strong>Calificación sugerida:</strong> {feedback['calificacion'].split(': ')[1]}</span><br><br>"
+                    feedback_messages += (
+                    f"🤖 <strong>{feedback['usuario'].split('_')[0]}{puntos}</strong>"
+                    f"<span style='background-color: #AEC6CF; display: inline;'>{feedback['html']}</span><br>"
+                    f"<div style='display: inline;'><strong>Calificación sugerida:</strong> {feedback['calificacion'].split(': ')[1]}</div><br><br>")
+
 
 
                 data = {
