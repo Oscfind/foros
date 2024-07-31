@@ -1,57 +1,71 @@
-import requests
+lista = [{'id': 361,
+  'fullname': 'Teología fundamental',
+  'shortname': 'tf',
+  'timemodified': 1720773196,
+  'assignments': [{'id': 236,
+    'cmid': 66837,
+    'course': 361,
+    'name': 'TAREA: ¿Se puede conocer a Dios con la razón?',
+    'nosubmissions': 0,
+    'submissiondrafts': 0,
+    'sendnotifications': 0,
+    'sendlatenotifications': 0,
+    'sendstudentnotifications': 1,
+    'duedate': 1722549600,
+    'allowsubmissionsfromdate': 1720389600,
+    'grade': 10,
+    'timemodified': 1722008466,
+    'completionsubmit': 0,
+    'cutoffdate': 1725031500,
+    'gradingduedate': 0,
+    'teamsubmission': 0,
+    'requireallteammemberssubmit': 0,
+    'teamsubmissiongroupingid': 0,
+    'blindmarking': 0,
+    'hidegrader': 0,
+    'revealidentities': 0,
+    'attemptreopenmethod': 'none',
+    'maxattempts': -1,
+    'markingworkflow': 0,
+    'markingallocation': 0,
+    'requiresubmissionstatement': 0,
+    'preventsubmissionnotingroup': 0,
+    'configs': [{'plugin': 'onlinetext',
+      'subtype': 'assignsubmission',
+      'name': 'enabled',
+      'value': '1'},
+     {'plugin': 'onlinetext',
+      'subtype': 'assignsubmission',
+      'name': 'wordlimit',
+      'value': '500'},
+     {'plugin': 'onlinetext',
+      'subtype': 'assignsubmission',
+      'name': 'wordlimitenabled',
+      'value': '1'},
+     {'plugin': 'comments',
+      'subtype': 'assignsubmission',
+      'name': 'enabled',
+      'value': '1'},
+     {'plugin': 'comments',
+      'subtype': 'assignfeedback',
+      'name': 'enabled',
+      'value': '1'},
+     {'plugin': 'comments',
+      'subtype': 'assignfeedback',
+      'name': 'commentinline',
+      'value': '0'},
+     {'plugin': 'editpdf',
+      'subtype': 'assignfeedback',
+      'name': 'enabled',
+      'value': '1'}],
+    'intro': '<div class="prom-box prom-box-default">\r\n\r\n<p>La <strong>Teología Fundamental </strong>explica los fundamentos y las\r\n    características de la fe cristiana y lo hace partiendo de la Revelación Divina.\r\n    No obstante, también tiene en cuenta los anhelos de trascendencia que experimenta\r\n    cada ser humano. </p>\r\n\r\n<p>Teniendo en cuenta las explicaciones contenidas en el tema\r\n    1, 2 y 3 con respecto a esta cuestión, <strong>responde a las siguientes preguntas</strong>:</p>\r\n<ol>\r\n    <li>¿En qué medida el hombre es capaz de conocer a\r\n        Dios sólo por sus propias fuerzas naturales?</li>\r\n    <li>¿Es suficiente el conocimiento que el hombre\r\n        pueda adquirir sólo por medio de su razón acerca de Dios o hay en su corazón\r\n        anhelo de más? </li>\r\n    <li>Identifica dos caminos humanos a través de los\r\n        cuales se puede adquirir cierto conocimiento teológico.</li>\r\n    <li>¿Existe algún impedimento para que los hombres\r\n        conozcan la existencia de Dios?</li>\r\n</ol>\r\n</div>\r\n<br>\r\n<p></p>',
+    'introformat': 1,
+    'introfiles': [],
+    'introattachments': [],
+    'activity': '<div class="prom-box prom-box-danger shadow1">\r\n    <h3>Instrucciones</h3>\r\n    <ul>\r\n        <li>Extensión: entre 300 y 500 palabras. </li>\r\n        <li>Procura circunscribirte a lo que se te pregunta. Si no lo haces, tendrás que repetir la actividad. No se trata de explicar tu punto de vista personal, sino de exponer una opinión con fundamento.</li>\r\n        <li>No dudes en repasar el contenido del curso antes de hacer la redacción. Se trata de que hagas una intervención crítica acerca de lo que se ha explicado en la formación.</li>\r\n    </ul>\r\n</div>',
+    'activityformat': 1,
+    'activityattachments': [],
+    'timelimit': 0,
+    'submissionattachments': 0}]}]
 
-def add_rating_to_post(contextid, itemid, rateduserid, rating):
-    endpoint = "https://aula.becat.online/webservice/rest/server.php"
-    
-    data = {
-        'wstoken': "f210b48f757dd01ff29b15965f984190",
-        'wsfunction': "core_rating_add_rating",
-        'moodlewsrestformat': 'json',
-        'contextid': contextid,
-        'component': 'mod_forum',
-        'ratingarea': 'post',
-        'itemid': itemid,
-        'scaleid': 10,  # escala de 10
-        'rating': rating,
-        'rateduserid': rateduserid,
-        'contextlevel': 'user',
-        'instanceid': 137166
-    }   
-    
-    # if response.status_code == 200:
-    #     return response.json()
-    # else:
-    #     response.raise_for_status()
-
-
-    response = requests.post(endpoint, data=data)  
-
-    return response.json()
-
- 
-
-
-
-contextid = 223716
-itemid = 137166
-rateduserid = 42466
-rating = 10
-
-response = add_rating_to_post(contextid, itemid, rateduserid, rating)
-print(response)
-
-
-# import requests  
-# def get_moodle_version():  
-#     endpoint = "https://aula.becat.online/webservice/rest/server.php"
-  
-#     data = {  
-#         'wstoken': "f210b48f757dd01ff29b15965f984190",  
-#         'wsfunction': 'core_webservice_get_site_info',  
-#         'moodlewsrestformat': 'json'  
-#     }  
-#     response = requests.post(endpoint, data=data)  
-#     return response.json()  
-
-# version_info = get_moodle_version()  
-# print(version_info)  
+print(lista[0]['assignments'][0]['id'])

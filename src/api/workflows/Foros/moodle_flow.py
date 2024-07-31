@@ -164,3 +164,66 @@ class MoodleWorkflow:
         else:
             print(f"Error al subir la retroalimentación: {response_json}")
         return response_json
+    
+
+
+
+    def get_assignments_by_course(course_id):
+        """
+        Esta función toma las tareas por cada curso.
+        """
+        endpoint = os.getenv('URL_BECAT')
+        params = {
+            'wstoken': os.getenv('WS_TOKEN'),
+            'wsfunction': 'mod_assign_get_assignments',
+            'moodlewsrestformat': 'json',
+            'courseids[0]': course_id
+        }
+        response = requests.get(endpoint, params=params)
+        assignments = response.json()
+        print(f"Tareas del curso {course_id}:", assignments)
+        if 'courses' in assignments:
+            return assignments['courses']
+        else:
+            print(f"Unexpected assignments response format for course {course_id}")
+            return []
+        
+    def get_submissions_by_assignment(assignment_id):
+        """
+        Esta función obtiene los envíos para una tarea específica.
+        """
+        endpoint = os.getenv('URL_BECAT')
+        params = {
+            'wstoken': os.getenv('WS_TOKEN'),
+            'wsfunction': 'mod_assign_get_submissions',
+            'moodlewsrestformat': 'json',
+            'assignmentids[0]': assignment_id
+        }
+        response = requests.get(endpoint, params=params)
+        submissions = response.json()
+        print(f"Envíos para la tarea {assignment_id}:", submissions)
+        if 'assignments' in submissions:
+            return submissions['assignments']
+        else:
+            print(f"Unexpected submissions response format for assignment {assignment_id}")
+            return []
+
+    # def get_submissions_by_course(course_id):
+    #     """
+    #     Esta función obtiene las entregas de tareas por curso.
+    #     """
+    #     url = os.getenv('URL_BECAT')
+    #     params = {
+    #         'wstoken': os.getenv('WS_TOKEN'),
+    #         'wsfunction': 'mod_assign_get_submissions',
+    #         'moodlewsrestformat': 'json',
+    #         'courseids[0]': course_id
+    #     }
+    #     response = requests.get(url, params=params)
+    #     submissions = response.json()
+    #     print(f"Entregas del curso {course_id}:", submissions)
+    #     if 'assignments' in submissions:
+    #         return submissions['assignments']
+    #     else:
+    #         print(f"Unexpected submissions response format for course {course_id}")
+    #         return []

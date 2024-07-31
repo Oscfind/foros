@@ -76,6 +76,7 @@ class ForosWorkflow:
             retroalimentación por posts de cada estudiante. Lo anterior se hace usando las funciones anteriores.
             """
             courses = MoodleWorkflow.get_courses()
+            display(courses)
             current_time = int(time.time())
             available_courses = [course for course in courses if course['enddate'] == 0 or course['enddate'] > current_time]
             # display(courses)
@@ -115,72 +116,74 @@ class ForosWorkflow:
 
                 for forum in lista_foro_1:
                     discussions = MoodleWorkflow.get_discussions_by_forum(forum['id'])
+                    display(discussions)
                 
                     
                     for discussion in discussions:
                         posts = MoodleWorkflow.get_posts_by_discussion(discussion['discussion'])
                         # posts_sin_pregunta_inicial = posts[:len(posts)-1]
                         # display(posts_sin_pregunta_inicial)
+                        display(posts)
 
-                        if posts[0]["subject"] == "Re: Retroalimentaciones":
-                            break
-                        else:
-                            contador = 0
-                            for post in posts:
-                                if post["subject"] != "Re: Retroalimentaciones":
-                                    contador += 1
-                                else:
-                                    break
+            #             if posts[0]["subject"] == "Re: Retroalimentaciones":
+            #                 break
+            #             else:
+            #                 contador = 0
+            #                 for post in posts:
+            #                     if post["subject"] != "Re: Retroalimentaciones":
+            #                         contador += 1
+            #                     else:
+            #                         break
 
-                            question_embedding = DataBaseConnection.encode_text(preguntas_unificadas_tarea)
-                            question_embedding_array = np.array(question_embedding)
-                            # search_result = DataBaseConnection.seach_context(DataBaseConnection.qdrant_client, course['fullname'], question_embedding_array)
-                            search_result = DataBaseConnection.seach_context(DataBaseConnection.qdrant_client, "test IA Col", question_embedding_array)
-                            contexto = DataBaseConnection.create_context(search_result)
-                            # display(contexto)
+            #                 question_embedding = DataBaseConnection.encode_text(preguntas_unificadas_tarea)
+            #                 question_embedding_array = np.array(question_embedding)
+            #                 # search_result = DataBaseConnection.seach_context(DataBaseConnection.qdrant_client, course['fullname'], question_embedding_array)
+            #                 search_result = DataBaseConnection.seach_context(DataBaseConnection.qdrant_client, "test IA Col", question_embedding_array)
+            #                 contexto = DataBaseConnection.create_context(search_result)
+            #                 # display(contexto)
 
-                            if contador == 1:
-                                feedback_message = self.ejecutar_modelo(caso, preguntas_unificadas_tarea, posts[0])
-                            elif contador == 2:
-                                feedback_message = self.ejecutar_modelo(caso, preguntas_unificadas_tarea, posts[:2])
-                            else:
-                                feedback_message = self.ejecutar_modelo(caso, preguntas_unificadas_tarea, posts[:contador])
+            #                 if contador == 1:
+            #                     feedback_message = self.ejecutar_modelo(caso, preguntas_unificadas_tarea, posts[0])
+            #                 elif contador == 2:
+            #                     feedback_message = self.ejecutar_modelo(caso, preguntas_unificadas_tarea, posts[:2])
+            #                 else:
+            #                     feedback_message = self.ejecutar_modelo(caso, preguntas_unificadas_tarea, posts[:contador])
                             
-                            usuario_list = list(feedback_message.keys())
-                            html_list = list(feedback_message.values())
+            #                 usuario_list = list(feedback_message.keys())
+            #                 html_list = list(feedback_message.values())
 
-                            if course['fullname'] not in feedback_by_course_discussion:
-                                feedback_by_course_discussion[course['fullname']] = {}
+            #                 if course['fullname'] not in feedback_by_course_discussion:
+            #                     feedback_by_course_discussion[course['fullname']] = {}
 
-                            if discussion['id'] not in feedback_by_course_discussion[course['fullname']]:
-                                feedback_by_course_discussion[course['fullname']][discussion['id']] = []
+            #                 if discussion['id'] not in feedback_by_course_discussion[course['fullname']]:
+            #                     feedback_by_course_discussion[course['fullname']][discussion['id']] = []
 
-                            for i in range(len(feedback_message)):    
-                                feedback_by_course_discussion[course['fullname']][discussion['id']].append({
-                                    'discussionid': discussion['id'],
-                                    'usuario': usuario_list[i].split('_')[0],
-                                    'html': html_list[i][0],
-                                    'calificacion': html_list[i][1]
-                                })
+            #                 for i in range(len(feedback_message)):    
+            #                     feedback_by_course_discussion[course['fullname']][discussion['id']].append({
+            #                         'discussionid': discussion['id'],
+            #                         'usuario': usuario_list[i].split('_')[0],
+            #                         'html': html_list[i][0],
+            #                         'calificacion': html_list[i][1]
+            #                     })
 
-                                # contextid = int(posts[0]['html']['rating'].split('name="contextid" value="')[1].split('"')[0])
-                                # display(contextid)
-                                # itemid = int(posts[0]['html']['rating'].split('name="itemid" value="')[1].split('"')[0])
-                                # display(itemid)
-                                # rateduserid = int(posts[0]['html']['rating'].split('name="rateduserid" value="')[1].split('"')[0])
-                                # display(rateduserid)
-                                # rating = int(html_list[i][1][-1])
-                                # display(rating)
+            #                     # contextid = int(posts[0]['html']['rating'].split('name="contextid" value="')[1].split('"')[0])
+            #                     # display(contextid)
+            #                     # itemid = int(posts[0]['html']['rating'].split('name="itemid" value="')[1].split('"')[0])
+            #                     # display(itemid)
+            #                     # rateduserid = int(posts[0]['html']['rating'].split('name="rateduserid" value="')[1].split('"')[0])
+            #                     # display(rateduserid)
+            #                     # rating = int(html_list[i][1][-1])
+            #                     # display(rating)
 
-                                # # función para calificar el post
-                                # MoodleWorkflow.calificar_post(contextid, itemid, rateduserid, rating)
-                    # display(posts)      
-                # display(discussions)
+            #                     # # función para calificar el post
+            #                     # MoodleWorkflow.calificar_post(contextid, itemid, rateduserid, rating)
+            #         # display(posts)      
+            #     # display(discussions)
                             
-            # se ordenan las retroalimentaciones de los usuarios
-            for course in feedback_by_course_discussion:
-                for discussion in feedback_by_course_discussion[course]:
-                    feedback_by_course_discussion[course][discussion] = feedback_by_course_discussion[course][discussion][::-1]
-            display(feedback_by_course_discussion)
-            MoodleWorkflow.subir_feedback(feedback_by_course_discussion)
-            # return True
+            # # se ordenan las retroalimentaciones de los usuarios
+            # for course in feedback_by_course_discussion:
+            #     for discussion in feedback_by_course_discussion[course]:
+            #         feedback_by_course_discussion[course][discussion] = feedback_by_course_discussion[course][discussion][::-1]
+            # display(feedback_by_course_discussion)
+            # # MoodleWorkflow.subir_feedback(feedback_by_course_discussion)
+            # # return True
