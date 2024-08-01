@@ -2,9 +2,12 @@ import requests
 from IPython.core.display import HTML
 from dotenv import load_dotenv
 import os
+import json
 
 class MoodleWorkflow:
     
+
+################# FOROS #####################
 
     def get_courses():
         """
@@ -166,6 +169,7 @@ class MoodleWorkflow:
         return response_json
     
 
+############################# TAREAS ################################
 
 
     def get_assignments_by_course(course_id):
@@ -201,29 +205,132 @@ class MoodleWorkflow:
         }
         response = requests.get(endpoint, params=params)
         submissions = response.json()
-        print(f"Envíos para la tarea {assignment_id}:", submissions)
-        if 'assignments' in submissions:
-            return submissions['assignments']
-        else:
-            print(f"Unexpected submissions response format for assignment {assignment_id}")
-            return []
+        # print(f"Envíos para la tarea {assignment_id}:", submissions)
+        return submissions
+        # if 'assignments' in submissions:
+        #     return submissions['assignments']
+        # else:
+        #     print(f"Unexpected submissions response format for assignment {assignment_id}")
+        #     return []
 
-    # def get_submissions_by_course(course_id):
+    # def save_feedback_and_grade(assignment_id, user_feedback):
     #     """
-    #     Esta función obtiene las entregas de tareas por curso.
+    #     Esta función guarda la retroalimentación y calificación para los envíos de una tarea.
+        
+    #     :param assignment_id: ID de la tarea a la que se va a guardar la retroalimentación.
+    #     :param user_feedback: Diccionario con información de retroalimentación y calificación.
     #     """
-    #     url = os.getenv('URL_BECAT')
+    #     endpoint = os.getenv('URL_BECAT')
+    #     token = os.getenv('WS_TOKEN')
+
+    #     user_id = user_feedback['id_usuario']
+    #     feedback_text = user_feedback['Feedback']
+    #     grade = user_feedback['Calificación']
+
     #     params = {
-    #         'wstoken': os.getenv('WS_TOKEN'),
-    #         'wsfunction': 'mod_assign_get_submissions',
+    #         'wstoken': token,
+    #         'wsfunction': 'mod_assign_save_grade',
     #         'moodlewsrestformat': 'json',
-    #         'courseids[0]': course_id
+    #         'assignmentid': assignment_id,
+    #         'userid': user_id,
+    #         'grade': grade,
+    #         'attemptnumber': -1,  # Último intento
+    #         'addattempt': 0,      # No agregar nuevo intento
+    #         'workflowstate': '',  # Estado del flujo de trabajo (vacío para mantener el actual)
+    #         'applytoall': 0
     #     }
-    #     response = requests.get(url, params=params)
-    #     submissions = response.json()
-    #     print(f"Entregas del curso {course_id}:", submissions)
-    #     if 'assignments' in submissions:
-    #         return submissions['assignments']
-    #     else:
-    #         print(f"Unexpected submissions response format for course {course_id}")
-    #         return []
+
+    #     # Agrega feedback_text en plugindata como un JSON separado
+    #     plugindata = {
+    #         'assignfeedbackcomments_editor': {
+    #             'text': feedback_text,
+    #             'format': 0  # Formato del comentario (0 para texto plano)
+    #         }
+    #     }
+
+    #     # Incluye plugindata como un parámetro separado
+    #     params['plugindata'] = json.dumps(plugindata)
+
+    #     response = requests.post(endpoint, data=params)
+    #     print(response.url)
+    #     print(response.status_code)
+    #     print(response.text)  # Imprime la respuesta completa para debug
+    #     result = response.json()
+    #     return result
+
+
+    # def save_feedback_and_grade(assignment_id, user_feedback):
+    #     """
+    #     Esta función guarda la retroalimentación y calificación para los envíos de una tarea usando mod_assign_save_submission.
+        
+    #     :param assignment_id: ID de la tarea a la que se va a guardar la retroalimentación.
+    #     :param user_feedback: Diccionario con información de retroalimentación y calificación.
+    #     """
+    #     endpoint = os.getenv('URL_BECAT')
+    #     token = os.getenv('WS_TOKEN')
+
+    #     user_id = user_feedback['id_usuario']
+    #     feedback_text = user_feedback['Feedback']
+    #     grade = user_feedback['Calificación']
+
+    #     params = {
+    #         'wstoken': token,
+    #         'wsfunction': 'mod_assign_save_submission',
+    #         'moodlewsrestformat': 'json',
+    #         'assignmentid': assignment_id,
+    #         'userid': user_id,
+    #         'submissionstatus': 'submitted',  # Marca el envío como entregado
+    #         'plugindata[assignfeedbackcomments_editor][text]': feedback_text,  # Comentarios
+    #         'plugindata[assignfeedbackcomments_editor][format]': 0,  # Formato del comentario (0 para texto plano)
+    #         'submissiondata[grade]': grade,  # Calificación
+    #         'submissiondata[attemptnumber]': -1  # Último intento
+    #     }
+
+    #     response = requests.post(endpoint, data=params)
+    #     print(response.url)
+    #     print(response.status_code)
+    #     print(response.text)  # Imprime la respuesta completa para debug
+    #     result = response.json()
+    #     return result
+
+    def save_feedback_and_grade(assignment_id, user_feedback, addattempt=0, workflowstate='submitted', applytoall=0, plugin_data=None):
+        """
+        Esta función guarda la retroalimentación y calificación para los envíos de una tarea.
+        
+        :param assignment_id: ID de la tarea a la que se va a guardar la retroalimentación.
+        :param user_feedback: Diccionario con información de retroalimentación y calificación.
+        :param addattempt: Permite otro intento si el método de reapertura del intento es manual.
+        :param workflowstate: El siguiente estado del flujo de trabajo de calificación.
+        :param applytoall: Si es verdadero, esta calificación se aplicará a todos los miembros del grupo (para tareas grupales).
+        :param plugin_data: Datos adicionales del plugin (opcional).
+        """
+        endpoint = os.getenv('URL_BECAT')
+        token = os.getenv('WS_TOKEN')
+
+        user_id = user_feedback['id_usuario']
+        feedback_text = user_feedback['Feedback']
+        grade = user_feedback['Calificación']
+        
+        # Si no se proporciona plugin_data, se establece como un diccionario vacío
+        if plugin_data is None:
+            plugin_data = {}
+
+        params = {
+            'wstoken': token,
+            'wsfunction': 'mod_assign_save_grade',
+            'moodlewsrestformat': 'json',
+            'assignmentid': assignment_id,
+            'userid': user_id,
+            'grade': grade,
+            'attemptnumber': 0,  # Puedes ajustar esto según el número de intentos
+            'addattempt': addattempt,  # Permite otro intento
+            'workflowstate': workflowstate,  # Estado del flujo de trabajo
+            'applytoall': applytoall,  # Aplicar a todos los miembros del grupo
+            'plugindata[assignfeedbackcomments_editor][text]': feedback_text,
+            'plugindata[assignfeedbackcomments_editor][format]': 1,  # Formato HTML
+            'plugindata[files_filemanager]': plugin_data.get('files_filemanager', 0)  # ID del área de borradores con archivos para esta retroalimentación
+        }
+
+        response = requests.post(endpoint, data=params)
+        result = response.json()
+        print(f"Resultado para el usuario {user_id}:", result)
